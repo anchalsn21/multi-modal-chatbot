@@ -1,0 +1,3 @@
+campus_assistant/backend/data/images/**/*.jpg filter=lfs diff=lfs merge=lfs -text
+campus_assistant/backend/data/images/**/*.jpeg filter=lfs diff=lfs merge=lfs -text
+campus_assistant/backend/data/images/**/*.png filter=lfs diff=lfs merge=lfs -text

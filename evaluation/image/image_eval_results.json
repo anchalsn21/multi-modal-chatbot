@@ -1,0 +1,1717 @@
+{
+  "num_samples": 64,
+  "top1_accuracy": 0.9688,
+  "top3_accuracy": 1.0,
+  "macro_precision": 0.9744,
+  "macro_recall": 0.9692,
+  "threshold_used": 0.25,
+  "top_k": 3,
+  "per_location": {
+    "loc_001": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "tp": 5,
+      "fp": 0,
+      "fn": 0
+    },
+    "loc_002": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "tp": 5,
+      "fp": 0,
+      "fn": 0
+    },
+    "loc_003": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "tp": 5,
+      "fp": 0,
+      "fn": 0
+    },
+    "loc_004": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "tp": 5,
+      "fp": 0,
+      "fn": 0
+    },
+    "loc_005": {
+      "precision": 1.0,
+      "recall": 0.8,
+      "f1": 0.8889,
+      "tp": 4,
+      "fp": 0,
+      "fn": 1
+    },
+    "loc_006": {
+      "precision": 0.8333,
+      "recall": 1.0,
+      "f1": 0.9091,
+      "tp": 5,
+      "fp": 1,
+      "fn": 0
+    },
+    "loc_007": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "tp": 5,
+      "fp": 0,
+      "fn": 0
+    },
+    "loc_008": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "tp": 5,
+      "fp": 0,
+      "fn": 0
+    },
+    "loc_009": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "tp": 5,
+      "fp": 0,
+      "fn": 0
+    },
+    "loc_010": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "tp": 4,
+      "fp": 0,
+      "fn": 0
+    },
+    "loc_011": {
+      "precision": 1.0,
+      "recall": 0.8,
+      "f1": 0.8889,
+      "tp": 4,
+      "fp": 0,
+      "fn": 1
+    },
+    "loc_012": {
+      "precision": 0.8333,
+      "recall": 1.0,
+      "f1": 0.9091,
+      "tp": 5,
+      "fp": 1,
+      "fn": 0
+    },
+    "loc_013": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "tp": 5,
+      "fp": 0,
+      "fn": 0
+    }
+  },
+  "per_image": [
+    {
+      "image_path": "data/images/library/1093023.jpg",
+      "expected_id": "loc_001",
+      "expected_name": "Main Library",
+      "top1_id": "loc_001",
+      "top1_name": "Main Library",
+      "top1_score": 0.925,
+      "top1_correct": true,
+      "top3_correct": true,
+      "is_confident": true,
+      "top3_candidates": [
+        [
+          "loc_001",
+          0.925
+        ],
+        [
+          "loc_007",
+          0.7968
+        ],
+        [
+          "loc_005",
+          0.779
+        ]
+      ]
+    },
+    {
+      "image_path": "data/images/library/112630581_f21ae30872.jpg",
+      "expected_id": "loc_001",
+      "expected_name": "Main Library",
+      "top1_id": "loc_001",
+      "top1_name": "Main Library",
+      "top1_score": 0.7866,
+      "top1_correct": true,
+      "top3_correct": true,
+      "is_confident": true,
+      "top3_candidates": [
+        [
+          "loc_001",
+          0.7866
+        ],
+        [
+          "loc_006",
+          0.6284
+        ],
+        [
+          "loc_010",
+          0.6065
+        ]
+      ]
+    },
+    {
+      "image_path": "data/images/library/130309783_f194f43f71.jpg",
+      "expected_id": "loc_001",
+      "expected_name": "Main Library",
+      "top1_id": "loc_001",
+      "top1_name": "Main Library",
+      "top1_score": 0.9173,
+      "top1_correct": true,
+      "top3_correct": true,
+      "is_confident": true,
+      "top3_candidates": [
+        [
+          "loc_001",
+          0.9173
+        ],
+        [
+          "loc_007",
+          0.8274
+        ],
+        [
+          "loc_005",
+          0.8195
+        ]
+      ]
+    },
+    {
+      "image_path": "data/images/library/204942053_a5d52d7746.jpg",
+      "expected_id": "loc_001",
+      "expected_name": "Main Library",
+      "top1_id": "loc_001",
+      "top1_name": "Main Library",
+      "top1_score": 0.8217,
+      "top1_correct": true,
+      "top3_correct": true,
+      "is_confident": true,
+      "top3_candidates": [
+        [
+          "loc_001",
+          0.8217
+        ],
+        [
+          "loc_006",
+          0.6911
+        ],
+        [
+          "loc_010",
+          0.6753
+        ]
+      ]
+    },
+    {
+      "image_path": "data/images/library/207157437_14c21369e9.jpg",
+      "expected_id": "loc_001",
+      "expected_name": "Main Library",
+      "top1_id": "loc_001",
+      "top1_name": "Main Library",
+      "top1_score": 0.8078,
+      "top1_correct": true,
+      "top3_correct": true,
+      "is_confident": true,
+      "top3_candidates": [
+        [
+          "loc_001",
+          0.8078
+        ],
+        [
+          "loc_006",
+          0.6394
+        ],
+        [
+          "loc_005",
+          0.6204
+        ]
+      ]
+    },
+    {
+      "image_path": "data/images/reception/reception 2.jpg",
+      "expected_id": "loc_002",
+      "expected_name": "Reception",
+      "top1_id": "loc_002",
+      "top1_name": "Reception",
+      "top1_score": 0.9263,
+      "top1_correct": true,
+      "top3_correct": true,
+      "is_confident": true,
+      "top3_candidates": [
+        [
+          "loc_002",
+          0.9263
+        ],
+        [
+          "loc_003",
+          0.8114
+        ],
+        [
+          "loc_004",
+          0.7734
+        ]
+      ]
+    },
+    {
+      "image_path": "data/images/reception/reception 3.jpg",
+      "expected_id": "loc_002",
+      "expected_name": "Reception",
+      "top1_id": "loc_002",
+      "top1_name": "Reception",
+      "top1_score": 0.8995,
+      "top1_correct": true,
+      "top3_correct": true,
+      "is_confident": true,
+      "top3_candidates": [
+        [
+          "loc_002",
+          0.8995
+        ],
+        [
+          "loc_012",
+          0.786
+        ],
+        [
+          "loc_003",
+          0.7748
+        ]
+      ]
+    },
+    {
+      "image_path": "data/images/reception/reception 4.jpg",
+      "expected_id": "loc_002",
+      "expected_name": "Reception",
+      "top1_id": "loc_002",
+      "top1_name": "Reception",
+      "top1_score": 0.9119,
+      "top1_correct": true,
+      "top3_correct": true,
+      "is_confident": true,
+      "top3_candidates": [
+        [
+          "loc_002",
+          0.9119
+        ],
+        [
+          "loc_003",
+          0.8469
+        ],
+        [
+          "loc_004",
+          0.8267
+        ]
+      ]
+    },
+    {
+      "image_path": "data/images/reception/reception 5.jpg",
+      "expected_id": "loc_002",
+      "expected_name": "Reception",
+      "top1_id": "loc_002",
+      "top1_name": "Reception",
+      "top1_score": 0.8716,
+      "top1_correct": true,
+      "top3_correct": true,
+      "is_confident": true,
+      "top3_candidates": [
+        [
+          "loc_002",
+          0.8716
+        ],
+        [
+          "loc_003",
+          0.7472
+        ],
+        [
+          "loc_004",
+          0.6926
+        ]
+      ]
+    },
+    {
+      "image_path": "data/images/reception/reception 6.jpg",
+      "expected_id": "loc_002",
+      "expected_name": "Reception",
+      "top1_id": "loc_002",
+      "top1_name": "Reception",
+      "top1_score": 0.9449,
+      "top1_correct": true,
+      "top3_correct": true,
+      "is_confident": true,
+      "top3_candidates": [
+        [
+          "loc_002",
+          0.9449
+        ],
+        [
+          "loc_003",
+          0.8355
+        ],
+        [
+          "loc_012",
+          0.7807
+        ]
+      ]
+    },
+    {
+      "image_path": "data/images/administration_office/admin office 1.jpg",
+      "expected_id": "loc_003",
+      "expected_name": "Administration Office",
+      "top1_id": "loc_003",
+      "top1_name": "Administration Office",
+      "top1_score": 0.9519,
+      "top1_correct": true,
+      "top3_correct": true,
+      "is_confident": true,
+      "top3_candidates": [
+        [
+          "loc_003",
+          0.9519
+        ],
+        [
+          "loc_002",
+          0.8722
+        ],
+        [
+          "loc_012",
+          0.8219
+        ]
+      ]
+    },
+    {
+      "image_path": "data/images/administration_office/admin office 2.jpg",
+      "expected_id": "loc_003",
+      "expected_name": "Administration Office",
+      "top1_id": "loc_003",
+      "top1_name": "Administration Office",
+      "top1_score": 0.9178,
+      "top1_correct": true,
+      "top3_correct": true,
+      "is_confident": true,
+      "top3_candidates": [
+        [
+          "loc_003",
+          0.9178
+        ],
+        [
+          "loc_002",
+          0.8771
+        ],
+        [
+          "loc_012",
+          0.8171
+        ]
+      ]
+    },
+    {
+      "image_path": "data/images/administration_office/admin office 3.jpg",
+      "expected_id": "loc_003",
+      "expected_name": "Administration Office",
+      "top1_id": "loc_003",
+      "top1_name": "Administration Office",
+      "top1_score": 0.7476,
+      "top1_correct": true,
+      "top3_correct": true,
+      "is_confident": true,
+      "top3_candidates": [
+        [
+          "loc_003",
+          0.7476
+        ],
+        [
+          "loc_011",
+          0.6309
+        ],
+        [
+          "loc_005",
+          0.6157
+        ]
+      ]
+    },
+    {
+      "image_path": "data/images/administration_office/admin office 4.jpg",
+      "expected_id": "loc_003",
+      "expected_name": "Administration Office",
+      "top1_id": "loc_003",
+      "top1_name": "Administration Office",
+      "top1_score": 0.9165,
+      "top1_correct": true,
+      "top3_correct": true,
+      "is_confident": true,
+      "top3_candidates": [
+        [
+          "loc_003",
+          0.9165
+        ],
+        [
+          "loc_002",
+          0.8835
+        ],
+        [
+          "loc_012",
+          0.8066
+        ]
+      ]
+    },
+    {
+      "image_path": "data/images/administration_office/admin office 5.jpg",
+      "expected_id": "loc_003",
+      "expected_name": "Administration Office",
+      "top1_id": "loc_003",
+      "top1_name": "Administration Office",
+      "top1_score": 0.9023,
+      "top1_correct": true,
+      "top3_correct": true,
+      "is_confident": true,
+      "top3_candidates": [
+        [
+          "loc_003",
+          0.9023
+        ],
+        [
+          "loc_002",
+          0.8305
+        ],
+        [
+          "loc_004",
+          0.7639
+        ]
+      ]
+    },
+    {
+      "image_path": "data/images/cafeteria/cafeteria 1.jpg",
+      "expected_id": "loc_004",
+      "expected_name": "Cafeteria",
+      "top1_id": "loc_004",
+      "top1_name": "Cafeteria",
+      "top1_score": 0.9414,
+      "top1_correct": true,
+      "top3_correct": true,
+      "is_confident": true,
+      "top3_candidates": [
+        [
+          "loc_004",
+          0.9414
+        ],
+        [
+          "loc_002",
+          0.7917
+        ],
+        [
+          "loc_003",
+          0.7641
+        ]
+      ]
+    },
+    {
+      "image_path": "data/images/cafeteria/cafeteria 2.jpg",
+      "expected_id": "loc_004",
+      "expected_name": "Cafeteria",
+      "top1_id": "loc_004",
+      "top1_name": "Cafeteria",
+      "top1_score": 0.9212,
+      "top1_correct": true,
+      "top3_correct": true,
+      "is_confident": true,
+      "top3_candidates": [
+        [
+          "loc_004",
+          0.9212
+        ],
+        [
+          "loc_002",
+          0.7747
+        ],
+        [
+          "loc_003",
+          0.7313
+        ]
+      ]
+    },
+    {
+      "image_path": "data/images/cafeteria/cafeteria 3.jpg",
+      "expected_id": "loc_004",
+      "expected_name": "Cafeteria",
+      "top1_id": "loc_004",
+      "top1_name": "Cafeteria",
+      "top1_score": 0.9219,
+      "top1_correct": true,
+      "top3_correct": true,
+      "is_confident": true,
+      "top3_candidates": [
+        [
+          "loc_004",
+          0.9219
+        ],
+        [
+          "loc_002",
+          0.7418
+        ],
+        [
+          "loc_003",
+          0.7111
+        ]
+      ]
+    },
+    {
+      "image_path": "data/images/cafeteria/cafeteria 4.jpg",
+      "expected_id": "loc_004",
+      "expected_name": "Cafeteria",
+      "top1_id": "loc_004",
+      "top1_name": "Cafeteria",
+      "top1_score": 0.9316,
+      "top1_correct": true,
+      "top3_correct": true,
+      "is_confident": true,
+      "top3_candidates": [
+        [
+          "loc_004",
+          0.9316
+        ],
+        [
+          "loc_002",
+          0.7844
+        ],
+        [
+          "loc_003",
+          0.7614
+        ]
+      ]
+    },
+    {
+      "image_path": "data/images/cafeteria/cafeteria 5.jpg",
+      "expected_id": "loc_004",
+      "expected_name": "Cafeteria",
+      "top1_id": "loc_004",
+      "top1_name": "Cafeteria",
+      "top1_score": 0.8696,
+      "top1_correct": true,
+      "top3_correct": true,
+      "is_confident": true,
+      "top3_candidates": [
+        [
+          "loc_004",
+          0.8696
+        ],
+        [
+          "loc_003",
+          0.7601
+        ],
+        [
+          "loc_002",
+          0.7411
+        ]
+      ]
+    },
+    {
+      "image_path": "data/images/cs_department/00.jpg",
+      "expected_id": "loc_005",
+      "expected_name": "Computer Science Department",
+      "top1_id": "loc_005",
+      "top1_name": "Computer Science Department",
+      "top1_score": 0.9603,
+      "top1_correct": true,
+      "top3_correct": true,
+      "is_confident": true,
+      "top3_candidates": [
+        [
+          "loc_005",
+          0.9603
+        ],
+        [
+          "loc_007",
+          0.8491
+        ],
+        [
+          "loc_012",
+          0.8057
+        ]
+      ]
+    },
+    {
+      "image_path": "data/images/cs_department/1.jpg",
+      "expected_id": "loc_005",
+      "expected_name": "Computer Science Department",
+      "top1_id": "loc_005",
+      "top1_name": "Computer Science Department",
+      "top1_score": 0.8887,
+      "top1_correct": true,
+      "top3_correct": true,
+      "is_confident": true,
+      "top3_candidates": [
+        [
+          "loc_005",
+          0.8887
+        ],
+        [
+          "loc_003",
+          0.7867
+        ],
+        [
+          "loc_012",
+          0.7861
+        ]
+      ]
+    },
+    {
+      "image_path": "data/images/cs_department/12_student_classroom_4_computer_training_1.jpg",
+      "expected_id": "loc_005",
+      "expected_name": "Computer Science Department",
+      "top1_id": "loc_012",
+      "top1_name": "Seminar / Meeting Room",
+      "top1_score": 0.8848,
+      "top1_correct": false,
+      "top3_correct": true,
+      "is_confident": true,
+      "top3_candidates": [
+        [
+          "loc_012",
+          0.8848
+        ],
+        [
+          "loc_005",
+          0.8266
+        ],
+        [
+          "loc_011",
+          0.81
+        ]
+      ]
+    },
+    {
+      "image_path": "data/images/cs_department/1552211138_a17100bcf5.jpg",
+      "expected_id": "loc_005",
+      "expected_name": "Computer Science Department",
+      "top1_id": "loc_005",
+      "top1_name": "Computer Science Department",
+      "top1_score": 0.9137,
+      "top1_correct": true,
+      "top3_correct": true,
+      "is_confident": true,
+      "top3_candidates": [
+        [
+          "loc_005",
+          0.9137
+        ],
+        [
+          "loc_007",
+          0.8815
+        ],
+        [
+          "loc_012",
+          0.854
+        ]
+      ]
+    },
+    {
+      "image_path": "data/images/cs_department/1782001450_ec797a2c7c.jpg",
+      "expected_id": "loc_005",
+      "expected_name": "Computer Science Department",
+      "top1_id": "loc_005",
+      "top1_name": "Computer Science Department",
+      "top1_score": 0.8831,
+      "top1_correct": true,
+      "top3_correct": true,
+      "is_confident": true,
+      "top3_candidates": [
+        [
+          "loc_005",
+          0.8831
+        ],
+        [
+          "loc_012",
+          0.8327
+        ],
+        [
+          "loc_003",
+          0.8078
+        ]
+      ]
+    },
+    {
+      "image_path": "data/images/auditorium/01_gd_amphi_statues_1__1.jpg",
+      "expected_id": "loc_006",
+      "expected_name": "Auditorium",
+      "top1_id": "loc_006",
+      "top1_name": "Auditorium",
+      "top1_score": 0.7877,
+      "top1_correct": true,
+      "top3_correct": true,
+      "is_confident": true,
+      "top3_candidates": [
+        [
+          "loc_006",
+          0.7877
+        ],
+        [
+          "loc_011",
+          0.7441
+        ],
+        [
+          "loc_001",
+          0.7328
+        ]
+      ]
+    },
+    {
+      "image_path": "data/images/auditorium/06salle_1__2.jpg",
+      "expected_id": "loc_006",
+      "expected_name": "Auditorium",
+      "top1_id": "loc_006",
+      "top1_name": "Auditorium",
+      "top1_score": 0.8148,
+      "top1_correct": true,
+      "top3_correct": true,
+      "is_confident": true,
+      "top3_candidates": [
+        [
+          "loc_006",
+          0.8148
+        ],
+        [
+          "loc_011",
+          0.6546
+        ],
+        [
+          "loc_001",
+          0.6182
+        ]
+      ]
+    },
+    {
+      "image_path": "data/images/auditorium/11472676233attendees_in_the_main_auditorium_1_1__3.jpg",
+      "expected_id": "loc_006",
+      "expected_name": "Auditorium",
+      "top1_id": "loc_006",
+      "top1_name": "Auditorium",
+      "top1_score": 0.7831,
+      "top1_correct": true,
+      "top3_correct": true,
+      "is_confident": true,
+      "top3_candidates": [
+        [
+          "loc_006",
+          0.7831
+        ],
+        [
+          "loc_011",
+          0.7738
+        ],
+        [
+          "loc_012",
+          0.6591
+        ]
+      ]
+    },
+    {
+      "image_path": "data/images/auditorium/2100733051_3b8ff268b5_o_1__4.jpg",
+      "expected_id": "loc_006",
+      "expected_name": "Auditorium",
+      "top1_id": "loc_006",
+      "top1_name": "Auditorium",
+      "top1_score": 0.8492,
+      "top1_correct": true,
+      "top3_correct": true,
+      "is_confident": true,
+      "top3_candidates": [
+        [
+          "loc_006",
+          0.8492
+        ],
+        [
+          "loc_011",
+          0.7482
+        ],
+        [
+          "loc_012",
+          0.7191
+        ]
+      ]
+    },
+    {
+      "image_path": "data/images/auditorium/280974993_7e04c2dd2d_1__5.jpg",
+      "expected_id": "loc_006",
+      "expected_name": "Auditorium",
+      "top1_id": "loc_006",
+      "top1_name": "Auditorium",
+      "top1_score": 0.8576,
+      "top1_correct": true,
+      "top3_correct": true,
+      "is_confident": true,
+      "top3_candidates": [
+        [
+          "loc_006",
+          0.8576
+        ],
+        [
+          "loc_011",
+          0.852
+        ],
+        [
+          "loc_007",
+          0.8413
+        ]
+      ]
+    },
+    {
+      "image_path": "data/images/classroom/02_3_Day_Classroom_Overview.jpg",
+      "expected_id": "loc_007",
+      "expected_name": "Classroom / Teaching Room",
+      "top1_id": "loc_007",
+      "top1_name": "Classroom / Teaching Room",
+      "top1_score": 0.852,
+      "top1_correct": true,
+      "top3_correct": true,
+      "is_confident": true,
+      "top3_candidates": [
+        [
+          "loc_007",
+          0.852
+        ],
+        [
+          "loc_005",
+          0.7824
+        ],
+        [
+          "loc_001",
+          0.7819
+        ]
+      ]
+    },
+    {
+      "image_path": "data/images/classroom/118463509_99bde44e96.jpg",
+      "expected_id": "loc_007",
+      "expected_name": "Classroom / Teaching Room",
+      "top1_id": "loc_007",
+      "top1_name": "Classroom / Teaching Room",
+      "top1_score": 0.8741,
+      "top1_correct": true,
+      "top3_correct": true,
+      "is_confident": true,
+      "top3_candidates": [
+        [
+          "loc_007",
+          0.8741
+        ],
+        [
+          "loc_005",
+          0.7872
+        ],
+        [
+          "loc_012",
+          0.7718
+        ]
+      ]
+    },
+    {
+      "image_path": "data/images/classroom/118463700_ead3ee32e3.jpg",
+      "expected_id": "loc_007",
+      "expected_name": "Classroom / Teaching Room",
+      "top1_id": "loc_007",
+      "top1_name": "Classroom / Teaching Room",
+      "top1_score": 0.938,
+      "top1_correct": true,
+      "top3_correct": true,
+      "is_confident": true,
+      "top3_candidates": [
+        [
+          "loc_007",
+          0.938
+        ],
+        [
+          "loc_005",
+          0.8092
+        ],
+        [
+          "loc_012",
+          0.7837
+        ]
+      ]
+    },
+    {
+      "image_path": "data/images/classroom/195707530_69d72677ab.jpg",
+      "expected_id": "loc_007",
+      "expected_name": "Classroom / Teaching Room",
+      "top1_id": "loc_007",
+      "top1_name": "Classroom / Teaching Room",
+      "top1_score": 0.9284,
+      "top1_correct": true,
+      "top3_correct": true,
+      "is_confident": true,
+      "top3_candidates": [
+        [
+          "loc_007",
+          0.9284
+        ],
+        [
+          "loc_005",
+          0.7988
+        ],
+        [
+          "loc_011",
+          0.7706
+        ]
+      ]
+    },
+    {
+      "image_path": "data/images/classroom/214classroom.jpg",
+      "expected_id": "loc_007",
+      "expected_name": "Classroom / Teaching Room",
+      "top1_id": "loc_007",
+      "top1_name": "Classroom / Teaching Room",
+      "top1_score": 0.9507,
+      "top1_correct": true,
+      "top3_correct": true,
+      "is_confident": true,
+      "top3_candidates": [
+        [
+          "loc_007",
+          0.9507
+        ],
+        [
+          "loc_005",
+          0.8507
+        ],
+        [
+          "loc_012",
+          0.7946
+        ]
+      ]
+    },
+    {
+      "image_path": "data/images/gym/06_Salle_Musculation_vue.jpg",
+      "expected_id": "loc_008",
+      "expected_name": "Gymnasium",
+      "top1_id": "loc_008",
+      "top1_name": "Gymnasium",
+      "top1_score": 0.8805,
+      "top1_correct": true,
+      "top3_correct": true,
+      "is_confident": true,
+      "top3_candidates": [
+        [
+          "loc_008",
+          0.8805
+        ],
+        [
+          "loc_003",
+          0.7006
+        ],
+        [
+          "loc_012",
+          0.6996
+        ]
+      ]
+    },
+    {
+      "image_path": "data/images/gym/1156_3.jpg",
+      "expected_id": "loc_008",
+      "expected_name": "Gymnasium",
+      "top1_id": "loc_008",
+      "top1_name": "Gymnasium",
+      "top1_score": 0.9421,
+      "top1_correct": true,
+      "top3_correct": true,
+      "is_confident": true,
+      "top3_candidates": [
+        [
+          "loc_008",
+          0.9421
+        ],
+        [
+          "loc_012",
+          0.7681
+        ],
+        [
+          "loc_005",
+          0.7485
+        ]
+      ]
+    },
+    {
+      "image_path": "data/images/gym/118094196_dd8cc14df0.jpg",
+      "expected_id": "loc_008",
+      "expected_name": "Gymnasium",
+      "top1_id": "loc_008",
+      "top1_name": "Gymnasium",
+      "top1_score": 0.8882,
+      "top1_correct": true,
+      "top3_correct": true,
+      "is_confident": true,
+      "top3_candidates": [
+        [
+          "loc_008",
+          0.8882
+        ],
+        [
+          "loc_012",
+          0.6691
+        ],
+        [
+          "loc_005",
+          0.6644
+        ]
+      ]
+    },
+    {
+      "image_path": "data/images/gym/1192_original_gym_photos_001.jpg",
+      "expected_id": "loc_008",
+      "expected_name": "Gymnasium",
+      "top1_id": "loc_008",
+      "top1_name": "Gymnasium",
+      "top1_score": 0.9553,
+      "top1_correct": true,
+      "top3_correct": true,
+      "is_confident": true,
+      "top3_candidates": [
+        [
+          "loc_008",
+          0.9553
+        ],
+        [
+          "loc_012",
+          0.755
+        ],
+        [
+          "loc_013",
+          0.7457
+        ]
+      ]
+    },
+    {
+      "image_path": "data/images/gym/1468818327_fa591a450c.jpg",
+      "expected_id": "loc_008",
+      "expected_name": "Gymnasium",
+      "top1_id": "loc_008",
+      "top1_name": "Gymnasium",
+      "top1_score": 0.8831,
+      "top1_correct": true,
+      "top3_correct": true,
+      "is_confident": true,
+      "top3_candidates": [
+        [
+          "loc_008",
+          0.8831
+        ],
+        [
+          "loc_013",
+          0.7014
+        ],
+        [
+          "loc_012",
+          0.6942
+        ]
+      ]
+    },
+    {
+      "image_path": "data/images/laboratory/01exbiochem.jpg",
+      "expected_id": "loc_009",
+      "expected_name": "Science Laboratory",
+      "top1_id": "loc_009",
+      "top1_name": "Science Laboratory",
+      "top1_score": 0.905,
+      "top1_correct": true,
+      "top3_correct": true,
+      "is_confident": true,
+      "top3_candidates": [
+        [
+          "loc_009",
+          0.905
+        ],
+        [
+          "loc_005",
+          0.746
+        ],
+        [
+          "loc_007",
+          0.7371
+        ]
+      ]
+    },
+    {
+      "image_path": "data/images/laboratory/1_analytical_laboratories.jpg",
+      "expected_id": "loc_009",
+      "expected_name": "Science Laboratory",
+      "top1_id": "loc_009",
+      "top1_name": "Science Laboratory",
+      "top1_score": 0.8856,
+      "top1_correct": true,
+      "top3_correct": true,
+      "is_confident": true,
+      "top3_candidates": [
+        [
+          "loc_009",
+          0.8856
+        ],
+        [
+          "loc_002",
+          0.7121
+        ],
+        [
+          "loc_001",
+          0.7065
+        ]
+      ]
+    },
+    {
+      "image_path": "data/images/laboratory/AA049672.jpg",
+      "expected_id": "loc_009",
+      "expected_name": "Science Laboratory",
+      "top1_id": "loc_009",
+      "top1_name": "Science Laboratory",
+      "top1_score": 0.9034,
+      "top1_correct": true,
+      "top3_correct": true,
+      "is_confident": true,
+      "top3_candidates": [
+        [
+          "loc_009",
+          0.9034
+        ],
+        [
+          "loc_003",
+          0.7285
+        ],
+        [
+          "loc_011",
+          0.7218
+        ]
+      ]
+    },
+    {
+      "image_path": "data/images/laboratory/dscn0387.jpg",
+      "expected_id": "loc_009",
+      "expected_name": "Science Laboratory",
+      "top1_id": "loc_009",
+      "top1_name": "Science Laboratory",
+      "top1_score": 0.8695,
+      "top1_correct": true,
+      "top3_correct": true,
+      "is_confident": true,
+      "top3_candidates": [
+        [
+          "loc_009",
+          0.8695
+        ],
+        [
+          "loc_012",
+          0.6903
+        ],
+        [
+          "loc_005",
+          0.6892
+        ]
+      ]
+    },
+    {
+      "image_path": "data/images/laboratory/feinlabcentrifuge.jpg",
+      "expected_id": "loc_009",
+      "expected_name": "Science Laboratory",
+      "top1_id": "loc_009",
+      "top1_name": "Science Laboratory",
+      "top1_score": 0.9222,
+      "top1_correct": true,
+      "top3_correct": true,
+      "is_confident": true,
+      "top3_candidates": [
+        [
+          "loc_009",
+          0.9222
+        ],
+        [
+          "loc_007",
+          0.7338
+        ],
+        [
+          "loc_005",
+          0.7329
+        ]
+      ]
+    },
+    {
+      "image_path": "data/images/main_building/main building 1.jpg",
+      "expected_id": "loc_010",
+      "expected_name": "Main Building",
+      "top1_id": "loc_010",
+      "top1_name": "Main Building",
+      "top1_score": 0.8986,
+      "top1_correct": true,
+      "top3_correct": true,
+      "is_confident": true,
+      "top3_candidates": [
+        [
+          "loc_010",
+          0.8986
+        ],
+        [
+          "loc_011",
+          0.7639
+        ],
+        [
+          "loc_006",
+          0.717
+        ]
+      ]
+    },
+    {
+      "image_path": "data/images/main_building/main building 2.jpg",
+      "expected_id": "loc_010",
+      "expected_name": "Main Building",
+      "top1_id": "loc_010",
+      "top1_name": "Main Building",
+      "top1_score": 0.9058,
+      "top1_correct": true,
+      "top3_correct": true,
+      "is_confident": true,
+      "top3_candidates": [
+        [
+          "loc_010",
+          0.9058
+        ],
+        [
+          "loc_011",
+          0.7034
+        ],
+        [
+          "loc_002",
+          0.6728
+        ]
+      ]
+    },
+    {
+      "image_path": "data/images/main_building/main building 3.jpg",
+      "expected_id": "loc_010",
+      "expected_name": "Main Building",
+      "top1_id": "loc_010",
+      "top1_name": "Main Building",
+      "top1_score": 0.9156,
+      "top1_correct": true,
+      "top3_correct": true,
+      "is_confident": true,
+      "top3_candidates": [
+        [
+          "loc_010",
+          0.9156
+        ],
+        [
+          "loc_002",
+          0.7318
+        ],
+        [
+          "loc_011",
+          0.7116
+        ]
+      ]
+    },
+    {
+      "image_path": "data/images/main_building/main building 4.jpg",
+      "expected_id": "loc_010",
+      "expected_name": "Main Building",
+      "top1_id": "loc_010",
+      "top1_name": "Main Building",
+      "top1_score": 0.8882,
+      "top1_correct": true,
+      "top3_correct": true,
+      "is_confident": true,
+      "top3_candidates": [
+        [
+          "loc_010",
+          0.8882
+        ],
+        [
+          "loc_011",
+          0.6875
+        ],
+        [
+          "loc_006",
+          0.6661
+        ]
+      ]
+    },
+    {
+      "image_path": "data/images/main_lecture_hall/lecture hall 2.jpg",
+      "expected_id": "loc_011",
+      "expected_name": "Main Lecture Hall",
+      "top1_id": "loc_011",
+      "top1_name": "Main Lecture Hall",
+      "top1_score": 0.9022,
+      "top1_correct": true,
+      "top3_correct": true,
+      "is_confident": true,
+      "top3_candidates": [
+        [
+          "loc_011",
+          0.9022
+        ],
+        [
+          "loc_012",
+          0.8486
+        ],
+        [
+          "loc_006",
+          0.8392
+        ]
+      ]
+    },
+    {
+      "image_path": "data/images/main_lecture_hall/lecture halls 3.jpg",
+      "expected_id": "loc_011",
+      "expected_name": "Main Lecture Hall",
+      "top1_id": "loc_011",
+      "top1_name": "Main Lecture Hall",
+      "top1_score": 0.9137,
+      "top1_correct": true,
+      "top3_correct": true,
+      "is_confident": true,
+      "top3_candidates": [
+        [
+          "loc_011",
+          0.9137
+        ],
+        [
+          "loc_006",
+          0.8896
+        ],
+        [
+          "loc_007",
+          0.762
+        ]
+      ]
+    },
+    {
+      "image_path": "data/images/main_lecture_hall/lecture halls 4.jpg",
+      "expected_id": "loc_011",
+      "expected_name": "Main Lecture Hall",
+      "top1_id": "loc_011",
+      "top1_name": "Main Lecture Hall",
+      "top1_score": 0.9252,
+      "top1_correct": true,
+      "top3_correct": true,
+      "is_confident": true,
+      "top3_candidates": [
+        [
+          "loc_011",
+          0.9252
+        ],
+        [
+          "loc_006",
+          0.8214
+        ],
+        [
+          "loc_010",
+          0.742
+        ]
+      ]
+    },
+    {
+      "image_path": "data/images/main_lecture_hall/lecture halls 5.jpg",
+      "expected_id": "loc_011",
+      "expected_name": "Main Lecture Hall",
+      "top1_id": "loc_006",
+      "top1_name": "Auditorium",
+      "top1_score": 0.9191,
+      "top1_correct": false,
+      "top3_correct": true,
+      "is_confident": true,
+      "top3_candidates": [
+        [
+          "loc_006",
+          0.9191
+        ],
+        [
+          "loc_011",
+          0.9164
+        ],
+        [
+          "loc_012",
+          0.7723
+        ]
+      ]
+    },
+    {
+      "image_path": "data/images/main_lecture_hall/lecture halls 6.jpg",
+      "expected_id": "loc_011",
+      "expected_name": "Main Lecture Hall",
+      "top1_id": "loc_011",
+      "top1_name": "Main Lecture Hall",
+      "top1_score": 0.73,
+      "top1_correct": true,
+      "top3_correct": true,
+      "is_confident": true,
+      "top3_candidates": [
+        [
+          "loc_011",
+          0.73
+        ],
+        [
+          "loc_006",
+          0.5638
+        ],
+        [
+          "loc_012",
+          0.5542
+        ]
+      ]
+    },
+    {
+      "image_path": "data/images/meeting_room/050908Library055_1.jpg",
+      "expected_id": "loc_012",
+      "expected_name": "Seminar / Meeting Room",
+      "top1_id": "loc_012",
+      "top1_name": "Seminar / Meeting Room",
+      "top1_score": 0.9236,
+      "top1_correct": true,
+      "top3_correct": true,
+      "is_confident": true,
+      "top3_candidates": [
+        [
+          "loc_012",
+          0.9236
+        ],
+        [
+          "loc_007",
+          0.8162
+        ],
+        [
+          "loc_005",
+          0.7971
+        ]
+      ]
+    },
+    {
+      "image_path": "data/images/meeting_room/08.jpg",
+      "expected_id": "loc_012",
+      "expected_name": "Seminar / Meeting Room",
+      "top1_id": "loc_012",
+      "top1_name": "Seminar / Meeting Room",
+      "top1_score": 0.8284,
+      "top1_correct": true,
+      "top3_correct": true,
+      "is_confident": true,
+      "top3_candidates": [
+        [
+          "loc_012",
+          0.8284
+        ],
+        [
+          "loc_006",
+          0.8113
+        ],
+        [
+          "loc_011",
+          0.7821
+        ]
+      ]
+    },
+    {
+      "image_path": "data/images/meeting_room/0LG_0006_Layer_3.jpg",
+      "expected_id": "loc_012",
+      "expected_name": "Seminar / Meeting Room",
+      "top1_id": "loc_012",
+      "top1_name": "Seminar / Meeting Room",
+      "top1_score": 0.9161,
+      "top1_correct": true,
+      "top3_correct": true,
+      "is_confident": true,
+      "top3_candidates": [
+        [
+          "loc_012",
+          0.9161
+        ],
+        [
+          "loc_003",
+          0.7616
+        ],
+        [
+          "loc_002",
+          0.7573
+        ]
+      ]
+    },
+    {
+      "image_path": "data/images/meeting_room/113_bis_meeting_room.jpg",
+      "expected_id": "loc_012",
+      "expected_name": "Seminar / Meeting Room",
+      "top1_id": "loc_012",
+      "top1_name": "Seminar / Meeting Room",
+      "top1_score": 0.8969,
+      "top1_correct": true,
+      "top3_correct": true,
+      "is_confident": true,
+      "top3_candidates": [
+        [
+          "loc_012",
+          0.8969
+        ],
+        [
+          "loc_007",
+          0.8057
+        ],
+        [
+          "loc_011",
+          0.7997
+        ]
+      ]
+    },
+    {
+      "image_path": "data/images/meeting_room/11_big.jpg",
+      "expected_id": "loc_012",
+      "expected_name": "Seminar / Meeting Room",
+      "top1_id": "loc_012",
+      "top1_name": "Seminar / Meeting Room",
+      "top1_score": 0.7994,
+      "top1_correct": true,
+      "top3_correct": true,
+      "is_confident": true,
+      "top3_candidates": [
+        [
+          "loc_012",
+          0.7994
+        ],
+        [
+          "loc_006",
+          0.736
+        ],
+        [
+          "loc_005",
+          0.7306
+        ]
+      ]
+    },
+    {
+      "image_path": "data/images/sports_centre/sc 3.jpg",
+      "expected_id": "loc_013",
+      "expected_name": "Sports Centre",
+      "top1_id": "loc_013",
+      "top1_name": "Sports Centre",
+      "top1_score": 0.8071,
+      "top1_correct": true,
+      "top3_correct": true,
+      "is_confident": true,
+      "top3_candidates": [
+        [
+          "loc_013",
+          0.8071
+        ],
+        [
+          "loc_008",
+          0.6763
+        ],
+        [
+          "loc_006",
+          0.6442
+        ]
+      ]
+    },
+    {
+      "image_path": "data/images/sports_centre/sc 4.jpg",
+      "expected_id": "loc_013",
+      "expected_name": "Sports Centre",
+      "top1_id": "loc_013",
+      "top1_name": "Sports Centre",
+      "top1_score": 0.8738,
+      "top1_correct": true,
+      "top3_correct": true,
+      "is_confident": true,
+      "top3_candidates": [
+        [
+          "loc_013",
+          0.8738
+        ],
+        [
+          "loc_008",
+          0.7862
+        ],
+        [
+          "loc_011",
+          0.742
+        ]
+      ]
+    },
+    {
+      "image_path": "data/images/sports_centre/sc 5.jpg",
+      "expected_id": "loc_013",
+      "expected_name": "Sports Centre",
+      "top1_id": "loc_013",
+      "top1_name": "Sports Centre",
+      "top1_score": 0.8433,
+      "top1_correct": true,
+      "top3_correct": true,
+      "is_confident": true,
+      "top3_candidates": [
+        [
+          "loc_013",
+          0.8433
+        ],
+        [
+          "loc_007",
+          0.6913
+        ],
+        [
+          "loc_011",
+          0.682
+        ]
+      ]
+    },
+    {
+      "image_path": "data/images/sports_centre/sc 6.jpg",
+      "expected_id": "loc_013",
+      "expected_name": "Sports Centre",
+      "top1_id": "loc_013",
+      "top1_name": "Sports Centre",
+      "top1_score": 0.8869,
+      "top1_correct": true,
+      "top3_correct": true,
+      "is_confident": true,
+      "top3_candidates": [
+        [
+          "loc_013",
+          0.8869
+        ],
+        [
+          "loc_002",
+          0.7359
+        ],
+        [
+          "loc_008",
+          0.728
+        ]
+      ]
+    },
+    {
+      "image_path": "data/images/sports_centre/sc 7.jpg",
+      "expected_id": "loc_013",
+      "expected_name": "Sports Centre",
+      "top1_id": "loc_013",
+      "top1_name": "Sports Centre",
+      "top1_score": 0.8727,
+      "top1_correct": true,
+      "top3_correct": true,
+      "is_confident": true,
+      "top3_candidates": [
+        [
+          "loc_013",
+          0.8727
+        ],
+        [
+          "loc_011",
+          0.7094
+        ],
+        [
+          "loc_006",
+          0.7014
+        ]
+      ]
+    }
+  ]
+}

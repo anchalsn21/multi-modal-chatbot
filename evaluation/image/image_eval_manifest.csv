@@ -1,0 +1,65 @@
+image_path,expected_location_id,expected_location_name
+data/images/library/1093023.jpg,loc_001,Main Library
+data/images/library/112630581_f21ae30872.jpg,loc_001,Main Library
+data/images/library/130309783_f194f43f71.jpg,loc_001,Main Library
+data/images/library/204942053_a5d52d7746.jpg,loc_001,Main Library
+data/images/library/207157437_14c21369e9.jpg,loc_001,Main Library
+data/images/reception/reception 2.jpg,loc_002,Reception
+data/images/reception/reception 3.jpg,loc_002,Reception
+data/images/reception/reception 4.jpg,loc_002,Reception
+data/images/reception/reception 5.jpg,loc_002,Reception
+data/images/reception/reception 6.jpg,loc_002,Reception
+data/images/administration_office/admin office 1.jpg,loc_003,Administration Office
+data/images/administration_office/admin office 2.jpg,loc_003,Administration Office
+data/images/administration_office/admin office 3.jpg,loc_003,Administration Office
+data/images/administration_office/admin office 4.jpg,loc_003,Administration Office
+data/images/administration_office/admin office 5.jpg,loc_003,Administration Office
+data/images/cafeteria/cafeteria 1.jpg,loc_004,Cafeteria
+data/images/cafeteria/cafeteria 2.jpg,loc_004,Cafeteria
+data/images/cafeteria/cafeteria 3.jpg,loc_004,Cafeteria
+data/images/cafeteria/cafeteria 4.jpg,loc_004,Cafeteria
+data/images/cafeteria/cafeteria 5.jpg,loc_004,Cafeteria
+data/images/cs_department/00.jpg,loc_005,Computer Science Department
+data/images/cs_department/1.jpg,loc_005,Computer Science Department
+data/images/cs_department/12_student_classroom_4_computer_training_1.jpg,loc_005,Computer Science Department
+data/images/cs_department/1552211138_a17100bcf5.jpg,loc_005,Computer Science Department
+data/images/cs_department/1782001450_ec797a2c7c.jpg,loc_005,Computer Science Department
+data/images/auditorium/01_gd_amphi_statues_1__1.jpg,loc_006,Auditorium
+data/images/auditorium/06salle_1__2.jpg,loc_006,Auditorium
+data/images/auditorium/11472676233attendees_in_the_main_auditorium_1_1__3.jpg,loc_006,Auditorium
+data/images/auditorium/2100733051_3b8ff268b5_o_1__4.jpg,loc_006,Auditorium
+data/images/auditorium/280974993_7e04c2dd2d_1__5.jpg,loc_006,Auditorium
+data/images/classroom/02_3_Day_Classroom_Overview.jpg,loc_007,Classroom / Teaching Room
+data/images/classroom/118463509_99bde44e96.jpg,loc_007,Classroom / Teaching Room
+data/images/classroom/118463700_ead3ee32e3.jpg,loc_007,Classroom / Teaching Room
+data/images/classroom/195707530_69d72677ab.jpg,loc_007,Classroom / Teaching Room
+data/images/classroom/214classroom.jpg,loc_007,Classroom / Teaching Room
+data/images/gym/06_Salle_Musculation_vue.jpg,loc_008,Gymnasium
+data/images/gym/1156_3.jpg,loc_008,Gymnasium
+data/images/gym/118094196_dd8cc14df0.jpg,loc_008,Gymnasium
+data/images/gym/1192_original_gym_photos_001.jpg,loc_008,Gymnasium
+data/images/gym/1468818327_fa591a450c.jpg,loc_008,Gymnasium
+data/images/laboratory/01exbiochem.jpg,loc_009,Science Laboratory
+data/images/laboratory/1_analytical_laboratories.jpg,loc_009,Science Laboratory
+data/images/laboratory/AA049672.jpg,loc_009,Science Laboratory
+data/images/laboratory/dscn0387.jpg,loc_009,Science Laboratory
+data/images/laboratory/feinlabcentrifuge.jpg,loc_009,Science Laboratory
+data/images/main_building/main building 1.jpg,loc_010,Main Building
+data/images/main_building/main building 2.jpg,loc_010,Main Building
+data/images/main_building/main building 3.jpg,loc_010,Main Building
+data/images/main_building/main building 4.jpg,loc_010,Main Building
+data/images/main_lecture_hall/lecture hall 2.jpg,loc_011,Main Lecture Hall
+data/images/main_lecture_hall/lecture halls 3.jpg,loc_011,Main Lecture Hall
+data/images/main_lecture_hall/lecture halls 4.jpg,loc_011,Main Lecture Hall
+data/images/main_lecture_hall/lecture halls 5.jpg,loc_011,Main Lecture Hall
+data/images/main_lecture_hall/lecture halls 6.jpg,loc_011,Main Lecture Hall
+data/images/meeting_room/050908Library055_1.jpg,loc_012,Seminar / Meeting Room
+data/images/meeting_room/08.jpg,loc_012,Seminar / Meeting Room
+data/images/meeting_room/0LG_0006_Layer_3.jpg,loc_012,Seminar / Meeting Room
+data/images/meeting_room/113_bis_meeting_room.jpg,loc_012,Seminar / Meeting Room
+data/images/meeting_room/11_big.jpg,loc_012,Seminar / Meeting Room
+data/images/sports_centre/sc 3.jpg,loc_013,Sports Centre
+data/images/sports_centre/sc 4.jpg,loc_013,Sports Centre
+data/images/sports_centre/sc 5.jpg,loc_013,Sports Centre
+data/images/sports_centre/sc 6.jpg,loc_013,Sports Centre
+data/images/sports_centre/sc 7.jpg,loc_013,Sports Centre

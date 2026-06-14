@@ -1,0 +1,649 @@
+text,intent,entity,split
+Where is the main library?,find_location,main library,train
+How do I get to the library?,find_location,library,train
+Can you tell me where the library is?,find_location,library,train
+I need to find the library,find_location,library,train
+Where can I find the main library on campus?,find_location,library,train
+Where is the student union?,find_location,student union,train
+How do I get to the student union building?,find_location,student union,train
+I'm looking for the student union,find_location,student union,train
+Where is the student union located?,find_location,student union,train
+Can you direct me to the union building?,find_location,union building,train
+Where is the sports centre?,find_location,sports centre,train
+How do I find the gym on campus?,find_location,gym,train
+Where is the campus gym?,find_location,gym,train
+I need directions to the sports centre,find_location,sports centre,train
+Where can I find the fitness centre?,find_location,fitness centre,train
+Where is the cafeteria?,find_location,cafeteria,train
+How do I get to the canteen?,find_location,canteen,train
+Where can I eat on campus?,find_location,cafeteria,train
+I'm hungry — where's the food hall?,find_location,cafeteria,train
+Where is the main dining area?,find_location,cafeteria,train
+Where is the medical centre?,find_location,medical centre,train
+How do I find the campus doctor?,find_location,medical centre,train
+Where is the career services office?,find_location,career services,val
+Can you tell me where career services is?,find_location,career services,val
+I'm looking for the international student office,find_location,international student office,val
+Where is the innovation lab?,find_location,innovation lab,val
+How do I get to the tech hub?,find_location,tech hub,val
+Where is the wellbeing hub?,find_location,wellbeing hub,val
+Can you show me where the medical centre is?,find_location,medical centre,test
+Where are the careers offices?,find_location,career services,test
+What time does the library open?,ask_hours,library,train
+When does the library close?,ask_hours,library,train
+What are the library opening hours?,ask_hours,library,train
+Is the library open on Sundays?,ask_hours,library,train
+What time does the library close on weekends?,ask_hours,library,train
+What are the gym opening hours?,ask_hours,gym,train
+Is the sports centre open on Sundays?,ask_hours,sports centre,train
+When does the gym close?,ask_hours,gym,train
+What time does the sports centre open?,ask_hours,sports centre,train
+Is the gym open on bank holidays?,ask_hours,gym,train
+What time does the cafeteria close?,ask_hours,cafeteria,train
+Is the canteen open on Sundays?,ask_hours,cafeteria,train
+What are the cafeteria's opening hours?,ask_hours,cafeteria,train
+When does the food hall open?,ask_hours,cafeteria,train
+Is the cafeteria open on Saturdays?,ask_hours,cafeteria,train
+When is the student union open?,ask_hours,student union,train
+What are the union building opening hours?,ask_hours,student union,train
+Is the student union open at night?,ask_hours,student union,train
+What time does the medical centre close?,ask_hours,medical centre,val
+Is the campus doctor open on weekends?,ask_hours,medical centre,val
+What are the career office hours?,ask_hours,career services,val
+When does the international office open?,ask_hours,international student office,val
+What time does the innovation lab close?,ask_hours,innovation lab,val
+Is the wellbeing hub open on Saturdays?,ask_hours,wellbeing hub,val
+What are the library hours on Saturday?,ask_hours,library,test
+Is the gym open early in the morning?,ask_hours,gym,test
+What is on at the freshers fair?,find_event,freshers fair,train
+Tell me about the freshers welcome fair,find_event,freshers fair,train
+When is the freshers fair?,find_event,freshers fair,train
+Is there a welcome event for new students?,find_event,welcome event,train
+What events are on this week?,find_event,events,train
+Are there any upcoming events on campus?,find_event,events,train
+What campus events are happening?,find_event,events,train
+Tell me about the AI lecture,find_event,ai lecture,train
+When is the AI talk?,find_event,ai talk,train
+Is there an event about artificial intelligence?,find_event,ai event,train
+What is the postgraduate research showcase?,find_event,postgraduate research showcase,train
+When is the research showcase?,find_event,research showcase,train
+Tell me about upcoming research events,find_event,research events,train
+Is there a food festival on campus?,find_event,food festival,train
+When is the international food festival?,find_event,international food festival,train
+Are there social events for international students?,find_event,international events,val
+What networking events are available?,find_event,networking events,val
+Is there a careers fair?,find_event,careers fair,val
+Tell me about events at the student union,find_event,student union events,val
+What is happening on campus this month?,find_event,events,val
+Are there any talks or lectures coming up?,find_event,lectures,val
+Is there an event for postgraduate students?,find_event,postgraduate events,val
+What entertainment events are on campus?,find_event,entertainment events,val
+Tell me about the food festival,find_event,food festival,test
+Is there a lecture about machine learning?,find_event,machine learning lecture,test
+What are the events near the cafeteria?,find_event,cafeteria events,test
+Where is the computer science department?,find_department,computer science,train
+How do I find the CS department?,find_department,computer science,train
+Where is the computing faculty?,find_department,computing,train
+I'm looking for the AI department,find_department,ai department,train
+Where can I find my computer science lecturer?,find_department,computer science,train
+Where is the business school?,find_department,business school,train
+How do I get to the business faculty?,find_department,business,train
+I'm looking for the MBA office,find_department,mba,train
+Where is the management department?,find_department,management,train
+Can you direct me to the business department?,find_department,business,train
+Where is the psychology department?,find_department,psychology,train
+How do I find the psychology faculty?,find_department,psychology,train
+I'm looking for the counselling department,find_department,counselling,train
+Where are the psychology offices?,find_department,psychology,train
+Where is the engineering faculty?,find_department,engineering,train
+How do I get to the engineering building?,find_department,engineering,train
+Where is the mechanical engineering department?,find_department,mechanical engineering,val
+Where is the robotics lab?,find_department,robotics lab,val
+I need to speak to my engineering lecturer,find_department,engineering,val
+How do I contact the computer science department?,find_department,computer science,val
+What floor is the business school on?,find_department,business school,val
+Where are the postgraduate offices?,find_department,postgraduate offices,val
+I need to find my faculty office,find_department,faculty office,val
+Can I speak to someone in the psychology department?,find_department,psychology,test
+Where is the data science programme based?,find_department,data science,test
+Where can I find a quiet place to study?,find_study_area,quiet study area,train
+I need a place to study on my own,find_study_area,individual study,train
+Where are the quiet study rooms?,find_study_area,quiet study room,train
+Is there a silent study area?,find_study_area,silent study,train
+Where can I revise for exams?,find_study_area,revision area,train
+Is there a 24-hour study room?,find_study_area,24 hour study,train
+Where can I study late at night?,find_study_area,late night study,train
+Are there any study rooms open overnight?,find_study_area,overnight study,train
+I need to study after midnight,find_study_area,24 hour study,train
+Is the library open all night?,find_study_area,24 hour study,train
+Where can I study in groups?,find_study_area,group study,train
+Are there group study pods?,find_study_area,group study pods,train
+I need a room for group work,find_study_area,group study,train
+Where can my team work together on campus?,find_study_area,group work,train
+Are there bookable study rooms?,find_study_area,bookable study room,train
+Where is the postgraduate common room?,find_study_area,postgraduate common room,train
+Is there a study space for postgraduate students?,find_study_area,postgraduate study,train
+Where can MSc students study?,find_study_area,msc study area,val
+Is there a graduate study lounge?,find_study_area,graduate lounge,val
+Where is the reading room?,find_study_area,reading room,val
+Is there a quiet reading area in the library?,find_study_area,reading area,val
+Where can I find a desk with a power socket?,find_study_area,desk with power,val
+I need to find a study space near the cafeteria,find_study_area,study space cafeteria,val
+Are there any study areas in the north campus?,find_study_area,north campus study,val
+Where is the best place to focus and study?,find_study_area,study area,test
+Can I book a group study pod?,find_study_area,group study pod booking,test
+Is there a 24-hour study room near the library?,find_study_area,24 hour study library,test
+How do I get from A to K?,find_navigation,A to K,train
+Directions from zone A to zone K,find_navigation,A to K,train
+How do I get from the library to the sports centre?,find_navigation,library to sports centre,train
+I'm at the library how do I get to the gym?,find_navigation,library to gym,train
+How do I get from G to M?,find_navigation,G to M,train
+Directions from computer science to engineering,find_navigation,computer science to engineering,train
+How do I go from D to N?,find_navigation,D to N,train
+How do I get from student union to careers office?,find_navigation,student union to careers,train
+I'm at zone B how do I reach zone K?,find_navigation,B to K,train
+How do I walk from the cafeteria to the sports centre?,find_navigation,cafeteria to sports centre,train
+Where is zone A on the campus map?,find_navigation,zone A,train
+What is at map location K?,find_navigation,zone K,train
+Which zone is the library in?,find_navigation,library zone,train
+How do I navigate to the medical centre?,find_navigation,medical centre,train
+I need directions to the engineering building,find_navigation,engineering,train
+Can you give me directions to the gym?,find_navigation,gym directions,train
+How do I get from H to A?,find_navigation,H to A,train
+I'm at South Gate how do I get to the medical centre?,find_navigation,South Gate medical centre,train
+Directions from North Gate to the library,find_navigation,North Gate library,train
+How do I reach the innovation lab from the main entrance?,find_navigation,main gate to innovation lab,val
+Where is zone M on the map?,find_navigation,zone M,val
+I'm at E and want to go to P,find_navigation,E to P,val
+How do I get from the admin office to arts studio?,find_navigation,admin to arts studio,val
+Directions from West Gate to careers office,find_navigation,West Gate careers,val
+Which map zone is the psychology department in?,find_navigation,psychology zone,val
+How do I walk from zone C to zone N?,find_navigation,C to N,val
+I need directions from the student union to the library,find_navigation,student union to library,test
+How do I get from zone D to zone A?,find_navigation,D to A,test
+I'm at zone K want to go to zone G,find_navigation,K to G,test
+Which building is at zone L?,find_navigation,zone L,test
+Where is the main library?,find_location,Main Library,train
+How do I get to the student union?,find_location,Student Union,train
+Where's the sports centre?,find_location,Sports Centre,train
+I'm looking for the main cafeteria,find_location,Main Cafeteria,train
+Can you point me to the medical centre?,find_location,Medical Centre,train
+Where is career services?,find_location,Career Services,train
+I need to find the international student office,find_location,International Student Office,train
+Where is the innovation lab?,find_location,Innovation Lab,train
+How do I reach the admin office?,find_location,Admin Office,train
+Where is the student counselling centre?,find_location,Student Counselling Centre,train
+I'm trying to find the arts and design studio,find_location,Arts & Design Studio,train
+um where do I go for the library,find_location,Main Library,train
+hey can you tell me where the cafeteria is,find_location,Main Cafeteria,train
+location of the sports centre please,find_location,Sports Centre,train
+I've just arrived on campus and I'm trying to find the medical centre can you help,find_location,Medical Centre,train
+Can you direct me to the student union building,find_location,Student Union,train
+What building is career services in?,find_location,Career Services,train
+Where exactly is the counselling centre located?,find_location,Student Counselling Centre,train
+I need directions to the international office,find_location,International Student Office,train
+How do I find the innovation lab on campus,find_location,Innovation Lab,train
+Where do I go for arts and design?,find_location,Arts & Design Studio,train
+Could you show me how to get to the admin office,find_location,Admin Office,train
+I'm lost and looking for the library,find_location,Main Library,train
+Which building is the student union in?,find_location,Student Union,train
+Can you point me towards the gym,find_location,Sports Centre,train
+where is the canteen on campus,find_location,Main Cafeteria,train
+I need to see a doctor where is the medical centre,find_location,Medical Centre,train
+How do I reach the careers office,find_location,Career Services,train
+Where can I find the international student support office,find_location,International Student Office,train
+Where is the makerspace,find_location,Innovation Lab,train
+I'm a new student and I can't find the admin office,find_location,Admin Office,train
+Where do students go for counselling,find_location,Student Counselling Centre,train
+Can you tell me where the art studio is,find_location,Arts & Design Studio,train
+What floor is the library on,find_location,Main Library,train
+I need to visit career services do you know where it is,find_location,Career Services,train
+Where is the students union building,find_location,Student Union,train
+How far is the sports centre from the library,find_location,Sports Centre,val
+I'm looking for somewhere to eat on campus,find_location,Main Cafeteria,val
+Where would I find the campus medical centre,find_location,Medical Centre,val
+Can you help me find the international office,find_location,International Student Office,val
+What zone is the innovation lab in,find_location,Innovation Lab,val
+I need to go to the admin office for registration,find_location,Admin Office,val
+Where is mental health support on campus,find_location,Student Counselling Centre,val
+How do I get to the arts building,find_location,Arts & Design Studio,val
+Where is the main campus library located,find_location,Main Library,val
+Where does career services operate from,find_location,Career Services,val
+hey where is the student union,find_location,Student Union,test
+Where on campus is the medical centre,find_location,Medical Centre,test
+I'm looking for the counselling centre,find_location,Student Counselling Centre,test
+Where can I find the arts and design studio on campus,find_location,Arts & Design Studio,test
+What time does the library open?,ask_hours,Main Library,train
+When does the student union close?,ask_hours,Student Union,train
+What are the sports centre opening hours?,ask_hours,Sports Centre,train
+Is the cafeteria open on weekends?,ask_hours,Main Cafeteria,train
+What time does the medical centre open on Monday?,ask_hours,Medical Centre,train
+What are the opening hours for career services?,ask_hours,Career Services,train
+Is the international office open on Saturdays?,ask_hours,International Student Office,train
+What time does the pharmacy open?,ask_hours,Campus Pharmacy,train
+When does the printing centre close?,ask_hours,Printing & Copying Centre,train
+Is the student finance office open this afternoon?,ask_hours,Student Finance Office,train
+What time does the IT help desk open?,ask_hours,IT Help Desk,train
+Is the post room open on Saturdays?,ask_hours,Campus Post Room,train
+What hours is the prayer room accessible?,ask_hours,Prayer & Reflection Room,train
+what time does the library shut on a Saturday,ask_hours,Main Library,train
+Is the IT help desk open on Saturdays?,ask_hours,IT Help Desk,train
+When does the pharmacy close on weekdays?,ask_hours,Campus Pharmacy,train
+Are the sports facilities open on bank holidays?,ask_hours,Sports Centre,train
+What time does career services open in the morning?,ask_hours,Career Services,train
+Is the student union open late?,ask_hours,Student Union,train
+When does the finance office close?,ask_hours,Student Finance Office,train
+What are the cafeteria's opening hours on Sunday?,ask_hours,Main Cafeteria,train
+Is the counselling centre open on weekends?,ask_hours,Student Counselling Centre,train
+What time does the library close tonight?,ask_hours,Main Library,train
+Can I visit the medical centre on a Sunday?,ask_hours,Medical Centre,train
+What are the printing centre's weekend hours?,ask_hours,Printing & Copying Centre,train
+Is the IT help desk open in the evenings?,ask_hours,IT Help Desk,train
+What time does the post room close?,ask_hours,Campus Post Room,train
+Is the pharmacy open on bank holidays?,ask_hours,Campus Pharmacy,train
+When does the international office open?,ask_hours,International Student Office,train
+What time does the sports centre close on Friday?,ask_hours,Sports Centre,train
+Are the admin offices open on weekends?,ask_hours,Admin Office,train
+What are the student finance office hours?,ask_hours,Student Finance Office,train
+When does the prayer room close?,ask_hours,Prayer & Reflection Room,train
+Is the printing centre open early in the morning?,ask_hours,Printing & Copying Centre,train
+Can I use the library on Sunday?,ask_hours,Main Library,val
+What time does the medical centre close?,ask_hours,Medical Centre,val
+Are careers appointments available on Saturdays?,ask_hours,Career Services,val
+What are the IT help desk Saturday hours?,ask_hours,IT Help Desk,val
+When does the pharmacy open on a Saturday?,ask_hours,Campus Pharmacy,val
+Is the student union bar open late on weekends?,ask_hours,Student Union,val
+What time does the cafeteria stop serving food?,ask_hours,Main Cafeteria,val
+Is the post room open at weekends?,ask_hours,Campus Post Room,val
+What are the counselling centre's opening hours?,ask_hours,Student Counselling Centre,val
+Are there bank holiday hours for the pharmacy?,ask_hours,Campus Pharmacy,val
+What time does the library open on a Saturday,ask_hours,Main Library,test
+Is the finance office open on Saturday mornings?,ask_hours,Student Finance Office,test
+When is the printing centre staffed?,ask_hours,Printing & Copying Centre,test
+What time does the sports centre open on weekdays?,ask_hours,Sports Centre,test
+Is the international student office open on bank holidays?,ask_hours,International Student Office,test
+When is the Freshers Welcome Fair?,find_event,Freshers Welcome Fair,train
+What's happening at the Freshers Fair?,find_event,Freshers Welcome Fair,train
+Tell me about the AI lecture,find_event,AI & the Future of Work Lecture,train
+When is the postgraduate research showcase?,find_event,Postgraduate Research Showcase,train
+Is there an international food festival on campus?,find_event,International Food Festival,train
+What events are on this week?,find_event,general,train
+When is the careers fair?,find_event,Careers Fair,train
+Are there any events for international students?,find_event,International Food Festival,train
+Is there anything on for postgrads?,find_event,Postgraduate Research Showcase,train
+What time does the AI lecture start?,find_event,AI & the Future of Work Lecture,train
+Where is the Freshers Welcome Fair being held?,find_event,Freshers Welcome Fair,train
+hey is there anything happening on campus this week,find_event,general,train
+Tell me about the mental health awareness week,find_event,Mental Health Awareness Week,train
+What's on during mental health week?,find_event,Mental Health Awareness Week,train
+When does the careers fair take place?,find_event,Careers Fair,train
+Are there any talks or lectures this month?,find_event,general,train
+I'm looking for events about technology,find_event,AI & the Future of Work Lecture,train
+What food events are happening on campus?,find_event,International Food Festival,train
+Is there a showcase for research students?,find_event,Postgraduate Research Showcase,train
+Where is the international food festival held?,find_event,International Food Festival,train
+What wellbeing events are on?,find_event,Mental Health Awareness Week,train
+When does mental health awareness week run?,find_event,Mental Health Awareness Week,train
+Is the careers fair open to first year students?,find_event,Careers Fair,train
+What events are happening next month?,find_event,general,train
+I want to go to the freshers fair when is it,find_event,Freshers Welcome Fair,train
+What is the postgrad research showcase about?,find_event,Postgraduate Research Showcase,train
+Are there any yoga sessions on campus?,find_event,Mental Health Awareness Week,train
+What is happening at the student union this week?,find_event,general,train
+Is there a lecture about artificial intelligence?,find_event,AI & the Future of Work Lecture,train
+When is the next food festival?,find_event,International Food Festival,train
+How do I sign up for the careers fair?,find_event,Careers Fair,train
+Tell me about upcoming events for new students,find_event,Freshers Welcome Fair,train
+Is there anything about mental health support this month?,find_event,Mental Health Awareness Week,train
+What date is the postgraduate showcase?,find_event,Postgraduate Research Showcase,val
+Can you tell me about the AI and future of work event?,find_event,AI & the Future of Work Lecture,val
+What events are there for freshers?,find_event,Freshers Welcome Fair,val
+Are there any mindfulness events this term?,find_event,Mental Health Awareness Week,val
+Is the international food festival free to attend?,find_event,International Food Festival,val
+Where is the careers fair located on campus?,find_event,Careers Fair,val
+What events are on for masters students?,find_event,Postgraduate Research Showcase,val
+When is the next campus-wide event?,find_event,general,val
+Are there any drop-in sessions during mental health week?,find_event,Mental Health Awareness Week,val
+Is the AI lecture open to all students?,find_event,AI & the Future of Work Lecture,val
+When does the freshers welcome fair start,find_event,Freshers Welcome Fair,test
+What is happening during mental health awareness week?,find_event,Mental Health Awareness Week,test
+Is there anything on campus related to careers?,find_event,Careers Fair,test
+Are there any events related to food on campus?,find_event,International Food Festival,test
+Tell me about research events for postgraduates,find_event,Postgraduate Research Showcase,test
+Where is the computer science department?,find_department,Computer Science,train
+How do I find the business school?,find_department,Business School,train
+Where is the psychology department located?,find_department,Psychology,train
+I'm looking for the engineering department,find_department,Engineering,train
+Where is the law school on campus?,find_department,Law School,train
+How do I contact the health sciences department?,find_department,Health Sciences,train
+Where is the CS department?,find_department,Computer Science,train
+I need to find where the business school is,find_department,Business School,train
+Where can I find the psych department?,find_department,Psychology,train
+Which building is the engineering faculty in?,find_department,Engineering,train
+How do I email the law school?,find_department,Law School,train
+Where is the MBA programme based?,find_department,Business School,train
+I'm looking for the computing department,find_department,Computer Science,train
+Where is the mech eng department?,find_department,Engineering,train
+How do I get to the psychology building?,find_department,Psychology,train
+Can you help me find the law faculty?,find_department,Law School,train
+Where are the health sciences offices?,find_department,Health Sciences,train
+Which campus zone is computer science in?,find_department,Computer Science,train
+I need to visit the business school office,find_department,Business School,train
+Where does the engineering department hold its lectures?,find_department,Engineering,train
+How do I reach the law school reception?,find_department,Law School,train
+I want to find out about nursing programmes where do I go,find_department,Health Sciences,train
+Where is the comp sci building?,find_department,Computer Science,train
+Which block is the business faculty in?,find_department,Business School,train
+I need directions to the psychology department,find_department,Psychology,train
+How do I contact the engineering faculty office?,find_department,Engineering,train
+Is the law school near the library?,find_department,Law School,train
+Where is the biomedical science department?,find_department,Health Sciences,train
+I'm a new student looking for the computer science offices,find_department,Computer Science,train
+What building is the business school in?,find_department,Business School,train
+Where do I go to speak to someone in the engineering department,find_department,Engineering,train
+How do I find the legal clinic on campus?,find_department,Law School,train
+Which zone is the health sciences building in?,find_department,Health Sciences,train
+How do I find the department of psychology?,find_department,Psychology,val
+What floor is the computer science department on?,find_department,Computer Science,val
+Where is the business management office?,find_department,Business School,val
+I need to hand in an assignment to the law school where do I go,find_department,Law School,val
+How do I get to the faculty of engineering?,find_department,Engineering,val
+Where is the health sciences building located?,find_department,Health Sciences,val
+Can you point me to the CS department reception?,find_department,Computer Science,val
+I'm looking for the economics and business building,find_department,Business School,val
+Where would I find a law lecturer's office?,find_department,Law School,val
+How do I get to the psychology research centre?,find_department,Psychology,val
+Where is the computer science department office,find_department,Computer Science,test
+How do I find the business school on campus,find_department,Business School,test
+Which building houses the engineering faculty?,find_department,Engineering,test
+How do I contact the law school by email?,find_department,Law School,test
+I need to find the health sciences department,find_department,Health Sciences,test
+Where can I study all night on campus?,find_study_area,24-Hour Study Suite,train
+I need a quiet place to revise,find_study_area,Quiet Reading Room,train
+Where are the group study pods?,find_study_area,Group Study Pods,train
+Is there a study area just for postgrads?,find_study_area,Postgraduate Common Room,train
+Where is the engineering computer lab?,find_study_area,Engineering Computer Lab,train
+I need to study all night where can I go,find_study_area,24-Hour Study Suite,train
+where can I find somewhere quiet to revise,find_study_area,Quiet Reading Room,train
+Can I book a group study room?,find_study_area,Group Study Pods,train
+Where do postgraduate students study?,find_study_area,Postgraduate Common Room,train
+I need access to engineering software which lab should I use,find_study_area,Engineering Computer Lab,train
+Is the 24-hour study suite open right now?,find_study_area,24-Hour Study Suite,train
+Where can I find a silent study space?,find_study_area,Quiet Reading Room,train
+I'm working on a group project and need a room with a screen,find_study_area,Group Study Pods,train
+Is there a common room for masters students?,find_study_area,Postgraduate Common Room,train
+Where can I access specialist computing facilities?,find_study_area,Engineering Computer Lab,train
+I need somewhere to study overnight,find_study_area,24-Hour Study Suite,train
+Is there a large quiet room available for studying?,find_study_area,Quiet Reading Room,train
+Where can my study group meet on campus?,find_study_area,Group Study Pods,train
+I'm a PhD student where can I work on campus?,find_study_area,Postgraduate Common Room,train
+Which lab has the engineering design software?,find_study_area,Engineering Computer Lab,train
+Is there anywhere I can study late at night?,find_study_area,24-Hour Study Suite,train
+Where is the quiet reading room in the library?,find_study_area,Quiet Reading Room,train
+How do I book one of the study pods?,find_study_area,Group Study Pods,train
+Where is the postgrad common room?,find_study_area,Postgraduate Common Room,train
+Do I need to book the engineering computer lab?,find_study_area,Engineering Computer Lab,train
+I want to study somewhere without any noise,find_study_area,Quiet Reading Room,train
+Are the group study pods available to book online?,find_study_area,Group Study Pods,train
+Is there a study space open 24 hours a day,find_study_area,24-Hour Study Suite,train
+Can postgraduate students access a dedicated study area?,find_study_area,Postgraduate Common Room,train
+I need a PC with CAD software installed,find_study_area,Engineering Computer Lab,train
+Where can I find a study room for a small group?,find_study_area,Group Study Pods,train
+Is the 24 hour study suite in the library building?,find_study_area,24-Hour Study Suite,train
+I need total silence to concentrate where should I go,find_study_area,Quiet Reading Room,train
+Where can engineering students work on projects?,find_study_area,Engineering Computer Lab,val
+Is there anywhere to study if I miss the last bus home?,find_study_area,24-Hour Study Suite,val
+Where are the bookable study rooms on campus?,find_study_area,Group Study Pods,val
+I'm a postgrad student looking for a quiet workspace,find_study_area,Postgraduate Common Room,val
+Which study area is best for group work?,find_study_area,Group Study Pods,val
+Where is the 24-hour study space on campus?,find_study_area,24-Hour Study Suite,val
+Is the quiet reading room available on weekends?,find_study_area,Quiet Reading Room,val
+Where can I find computing facilities for engineering coursework?,find_study_area,Engineering Computer Lab,val
+Is there a dedicated area for PhD students to work?,find_study_area,Postgraduate Common Room,val
+Can I use the study pods without booking?,find_study_area,Group Study Pods,val
+Where can I study if the library is closed,find_study_area,24-Hour Study Suite,test
+I need a silent space to work where should I go,find_study_area,Quiet Reading Room,test
+How do I reserve a group study pod?,find_study_area,Group Study Pods,test
+Is there a postgraduate study lounge on campus?,find_study_area,Postgraduate Common Room,test
+Where is the computer lab for engineering students?,find_study_area,Engineering Computer Lab,test
+Where is the campus pharmacy?,find_facility,pharmacy,train
+How do I get to the IT help desk?,find_facility,IT help desk,train
+Where can I print documents on campus?,find_facility,printing centre,train
+I need to pay my tuition fees where do I go?,find_facility,student finance,train
+Where can I collect my parcel?,find_facility,post room,train
+Is there a prayer room on campus?,find_facility,prayer room,train
+where do I go to sort out my wifi password,find_facility,IT help desk,train
+I need to pick up a prescription where is the pharmacy?,find_facility,pharmacy,train
+Where can I get my essay bound?,find_facility,printing centre,train
+How do I apply for a bursary in person?,find_facility,student finance,train
+I need to send a letter where is the post room?,find_facility,post room,train
+Where can Muslims pray on campus?,find_facility,prayer room,train
+I need to reset my university password who do I see,find_facility,IT help desk,train
+Where is the nearest chemist on campus?,find_facility,pharmacy,train
+I need to print an A0 poster for my project,find_facility,printing centre,train
+Where do I go to query my student loan?,find_facility,student finance,train
+Is there an Amazon locker on campus?,find_facility,post room,train
+Where is the multi-faith room?,find_facility,prayer room,train
+My laptop won't connect to eduroam who can help,find_facility,IT help desk,train
+Can I get over the counter medicine on campus?,find_facility,pharmacy,train
+Where can I photocopy documents on campus?,find_facility,printing centre,train
+I'm having trouble with my fees payment who do I speak to,find_facility,student finance,train
+Where do parcels get delivered on campus?,find_facility,post room,train
+Is there a quiet room for prayer and reflection?,find_facility,prayer room,train
+I need a software licence installed on my laptop where do I go,find_facility,IT help desk,train
+Where is the pharmacy in relation to the medical centre?,find_facility,pharmacy,train
+Can I laminate documents anywhere on campus?,find_facility,printing centre,train
+Where is the hardship fund office?,find_facility,student finance,train
+How do I collect a registered letter on campus?,find_facility,post room,train
+Where can I go for quiet reflection between lectures?,find_facility,prayer room,train
+I need help with my university email account,find_facility,IT help desk,train
+Where do I get my prescriptions filled on campus?,find_facility,pharmacy,train
+Is there somewhere I can print in colour on campus?,find_facility,printing centre,train
+I need to discuss my financial situation with someone at the university,find_facility,student finance,train
+My parcel has been delivered to campus where do I pick it up,find_facility,post room,train
+Is the prayer room available outside of working hours?,find_facility,prayer room,val
+Who do I see if my student card isn't working on the IT systems?,find_facility,IT help desk,val
+Where can I print my dissertation?,find_facility,printing centre,val
+Is there a student finance drop-in service?,find_facility,student finance,val
+Can I send outgoing mail from campus?,find_facility,post room,val
+What floor is the prayer room on?,find_facility,prayer room,val
+I need to borrow a laptop temporarily who can help?,find_facility,IT help desk,val
+Is there a pharmacy in the wellbeing hub?,find_facility,pharmacy,val
+Where can I get large format printing done?,find_facility,printing centre,val
+How do I access the hardship fund?,find_facility,student finance,val
+Where is the campus post room located,find_facility,post room,test
+Is there a place on campus where I can pray?,find_facility,prayer room,test
+Where is the IT support office on campus?,find_facility,IT help desk,test
+Where can I buy paracetamol on campus?,find_facility,pharmacy,test
+Where can I print and bind my assignment?,find_facility,printing centre,test
+How do I get a student ID card?,general_information,student id,train
+How do I reset my university password?,general_information,password reset,train
+What do I do in a campus emergency?,general_information,emergency,train
+How do I apply for a bursary?,general_information,bursary,train
+Where do I report a lost item on campus?,general_information,lost property,train
+How do I register with a campus doctor?,general_information,gp registration,train
+What bus stops are near campus?,general_information,bus,train
+Is there parking available on campus?,general_information,parking,train
+How do I join a student society?,general_information,society,train
+What is the campus wifi password?,general_information,wifi,train
+How do I book a room on campus?,general_information,room booking,train
+Who do I contact about my timetable?,general_information,timetable,train
+What support is available for disabled students?,general_information,disability support,train
+how do I get my student card sorted,general_information,student id,train
+I've forgotten my university login details what do I do,general_information,password reset,train
+There's a fire alarm going off what should I do,general_information,emergency,train
+I'm struggling financially is there any help available,general_information,bursary,train
+I think I've lost my wallet on campus who do I tell,general_information,lost property,train
+How do I sign up with the campus GP?,general_information,gp registration,train
+Which bus goes to the university?,general_information,bus,train
+Can students park on campus for free?,general_information,parking,train
+I want to start a new student club how do I do that,general_information,society,train
+I can't connect to the campus wifi what's the network name,general_information,wifi,train
+Is there a way to book a meeting room online?,general_information,room booking,train
+My timetable looks wrong who should I contact?,general_information,timetable,train
+I have a disability and need extra support who do I speak to,general_information,disability support,train
+How do I get a replacement student ID card?,general_information,student id,train
+My university account has been locked how do I unlock it,general_information,password reset,train
+What is the campus emergency number?,general_information,emergency,train
+How do I access the hardship fund?,general_information,bursary,train
+Where is the lost and found on campus?,general_information,lost property,train
+Can I register with a doctor at the campus medical centre?,general_information,gp registration,train
+What is the nearest bus stop to campus?,general_information,bus,train
+Where can I find information about campus parking permits?,general_information,parking,train
+How do I find out about student societies to join?,general_information,society,train
+How do I connect my phone to the eduroam wifi?,general_information,wifi,train
+I need to book a seminar room for a group meeting,general_information,room booking,train
+I haven't received my timetable yet what should I do,general_information,timetable,train
+Where can I find out about learning support services?,general_information,disability support,train
+I need a new student card mine has expired,general_information,student id,val
+How do I change my university password?,general_information,password reset,val
+Who do I call if I see something suspicious on campus?,general_information,emergency,val
+Is there financial help for students from low income backgrounds?,general_information,bursary,val
+I found someone's bag on campus what should I do?,general_information,lost property,val
+How long does it take to register with the campus GP?,general_information,gp registration,val
+What bus number goes to the city centre from campus?,general_information,bus,val
+How much does campus parking cost per day?,general_information,parking,val
+I want to get involved in campus life what societies are there?,general_information,society,val
+I keep getting disconnected from the campus wifi can anyone help,general_information,wifi,val
+How do I get my student ID card for the first time,general_information,student id,test
+What should I do if there is a medical emergency on campus?,general_information,emergency,test
+How do I apply for the university hardship fund?,general_information,bursary,test
+How do I report a lost student card?,general_information,lost property,test
+What disability support services does the university offer?,general_information,disability support,test
+Where is the auditorium?,find_location,auditorium,train
+How do I find the auditorium on campus?,find_location,auditorium,train
+Where is the main auditorium?,find_location,auditorium,train
+I need to get to the auditorium,find_location,auditorium,train
+Where is the event hall?,find_location,auditorium,train
+Where is the graduation hall?,find_location,auditorium,train
+Can you direct me to the auditorium?,find_location,auditorium,train
+I'm looking for the large event venue,find_location,auditorium,train
+Where are lectures held for large groups?,find_location,auditorium,train
+Which building is the auditorium in?,find_location,auditorium,train
+Where is the auditorium located on campus?,find_location,auditorium,val
+How do I get to the conference hall?,find_location,auditorium,val
+I'm attending a keynote lecture where do I go?,find_location,auditorium,val
+Where is the campus auditorium?,find_location,auditorium,val
+Which zone is the auditorium in?,find_location,auditorium,val
+Where is the auditorium on the campus map?,find_location,auditorium,test
+I need directions to the main auditorium,find_location,auditorium,test
+Where is the gymnasium?,find_location,gym,train
+How do I find the gym?,find_location,gym,train
+Where can I work out on campus?,find_location,gym,train
+I'm looking for the fitness room,find_location,gym,train
+Where are the weights and cardio machines?,find_location,gym,train
+How do I get to the campus gym?,find_location,gym,train
+Where is the gymnasium on campus?,find_location,gym,train
+I want to exercise where should I go?,find_location,gym,train
+Where can I find gym equipment?,find_location,gym,train
+Which building is the gymnasium in?,find_location,gym,train
+Where can I do a workout on campus?,find_location,gym,val
+How do I get to the fitness facilities?,find_location,gym,val
+Where is the campus gym located?,find_location,gym,val
+I'm looking for the weights room,find_location,gym,val
+Which zone is the gymnasium in?,find_location,gym,val
+Where are the gym facilities on campus?,find_location,gym,test
+I need directions to the gymnasium,find_location,gym,test
+Where is the sports centre?,find_location,sports centre,train
+How do I find the sports centre?,find_location,sports centre,train
+Where is the swimming pool on campus?,find_location,sports centre,train
+I'm looking for the squash courts,find_location,sports centre,train
+Where is the sports hall?,find_location,sports centre,train
+Where can I swim on campus?,find_location,sports centre,train
+Where are the squash courts?,find_location,sports centre,train
+I want to play indoor sports where should I go?,find_location,sports centre,train
+Where is the Athletico Complex?,find_location,sports centre,train
+Which zone is the sports centre in?,find_location,sports centre,val
+Where are the aquatic facilities on campus?,find_location,sports centre,val
+How do I get to the swimming pool?,find_location,sports centre,val
+Where is the sports centre on the campus map?,find_location,sports centre,test
+Where are the classrooms?,find_location,classroom,train
+How do I find my classroom?,find_location,classroom,train
+Where are the teaching rooms?,find_location,classroom,train
+I'm looking for a tutorial room,find_location,classroom,train
+Where are the seminar rooms for classes?,find_location,classroom,train
+Where do lectures take place in small groups?,find_location,classroom,train
+Where are the regular teaching rooms?,find_location,classroom,train
+Which building has the classrooms?,find_location,classroom,train
+Where do I go for my tutorial session?,find_location,classroom,val
+Where can I find a teaching room on campus?,find_location,classroom,val
+Which zone are the classrooms in?,find_location,classroom,val
+Where are the tutorial rooms?,find_location,classroom,test
+Where is the science laboratory?,find_location,laboratory,train
+How do I find the lab on campus?,find_location,laboratory,train
+Where are the science labs?,find_location,laboratory,train
+I need to get to the chemistry lab,find_location,laboratory,train
+Where is the biology laboratory?,find_location,laboratory,train
+How do I find the research labs?,find_location,laboratory,train
+Where do students do practicals?,find_location,laboratory,train
+I'm looking for the science laboratories,find_location,laboratory,train
+Which building has the labs?,find_location,laboratory,train
+Where are the laboratory rooms?,find_location,laboratory,train
+Where can I do practical work on campus?,find_location,laboratory,val
+Where is the biology lab?,find_location,laboratory,val
+Which zone are the labs in?,find_location,laboratory,val
+How do I get to the science laboratory?,find_location,laboratory,val
+Where are the research laboratories?,find_location,laboratory,test
+I need directions to the science lab,find_location,laboratory,test
+Where is the meeting room?,find_location,meeting room,train
+How do I find a meeting room on campus?,find_location,meeting room,train
+Where can I book a meeting room?,find_location,meeting room,train
+I'm looking for a seminar room,find_location,meeting room,train
+Where are the conference rooms?,find_location,meeting room,train
+I need a room for a small group meeting,find_location,meeting room,train
+Where are the bookable rooms?,find_location,meeting room,train
+Which building has meeting rooms?,find_location,meeting room,train
+Where can I have a private discussion on campus?,find_location,meeting room,train
+Where are the seminar rooms on campus?,find_location,meeting room,val
+How do I reserve a meeting room?,find_location,meeting room,val
+Where are the conference rooms on campus?,find_location,meeting room,val
+Where can I find a room for a group meeting?,find_location,meeting room,test
+Where is the main building?,find_location,main building,train
+How do I find the main building?,find_location,main building,train
+Where is the central campus building?,find_location,main building,train
+I'm looking for the Chancellor Building,find_location,main building,train
+Where is the main campus entrance building?,find_location,main building,train
+Which building is at the heart of campus?,find_location,main building,train
+Where is the central administrative building?,find_location,main building,train
+I need to go to the main building on campus,find_location,main building,train
+Where is the headquarters building?,find_location,main building,val
+How do I get to the main campus building?,find_location,main building,val
+Which zone is the main building in?,find_location,main building,val
+Where is the main building on the campus map?,find_location,main building,test
+What time does the auditorium open?,ask_hours,auditorium,train
+When is the auditorium available?,ask_hours,auditorium,train
+What are the auditorium opening hours?,ask_hours,auditorium,train
+Is the auditorium open on weekends?,ask_hours,auditorium,train
+When can I use the auditorium?,ask_hours,auditorium,train
+What time does the auditorium close?,ask_hours,auditorium,val
+Is the auditorium open on Saturdays?,ask_hours,auditorium,val
+What time does the gymnasium open?,ask_hours,gym,train
+When does the gym close on weekdays?,ask_hours,gym,train
+What are the gym opening hours?,ask_hours,gym,train
+Is the gym open early in the morning?,ask_hours,gym,train
+What time does the gym close?,ask_hours,gym,train
+Is the gymnasium open on weekends?,ask_hours,gym,train
+What are the gym's weekend hours?,ask_hours,gym,train
+When does the gym open on Sundays?,ask_hours,gym,val
+Is the gym open on bank holidays?,ask_hours,gym,val
+What time does the gym open on Saturday?,ask_hours,gym,test
+What time does the sports centre open?,ask_hours,sports centre,train
+When does the sports centre close?,ask_hours,sports centre,train
+What are the sports centre opening hours?,ask_hours,sports centre,train
+Is the sports centre open on Sundays?,ask_hours,sports centre,train
+What are the swimming pool session times?,ask_hours,sports centre,train
+Is the pool open in the morning?,ask_hours,sports centre,train
+Can I use the sports centre on bank holidays?,ask_hours,sports centre,val
+What time does the sports centre close on Saturdays?,ask_hours,sports centre,val
+When are the squash courts available?,ask_hours,sports centre,test
+What time do the classrooms open?,ask_hours,classroom,train
+When are teaching rooms available?,ask_hours,classroom,train
+What hours can I use a classroom?,ask_hours,classroom,val
+What time does the laboratory open?,ask_hours,laboratory,train
+When is the lab available for sessions?,ask_hours,laboratory,train
+What are the lab opening hours?,ask_hours,laboratory,train
+Is the lab open on Saturdays?,ask_hours,laboratory,val
+When can I access the science lab?,ask_hours,laboratory,val
+What time does the meeting room service open?,ask_hours,meeting room,train
+When are meeting rooms available to book?,ask_hours,meeting room,train
+What hours can I use a seminar room?,ask_hours,meeting room,val
