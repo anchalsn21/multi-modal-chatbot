@@ -1,6 +1,6 @@
 # Campus Assistant — Frontend
 
-Next.js 15 frontend for the BSBI Campus Orientation Assistant.
+Next.js 15 frontend for the Greenfield Campus Orientation Assistant.
 
 ## Tech Stack
 

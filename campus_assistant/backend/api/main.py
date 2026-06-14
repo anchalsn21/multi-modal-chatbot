@@ -87,6 +87,8 @@ app = FastAPI(
 # ── CORS middleware ───────────────────────────────────────────────────────────
 # This allows the Next.js frontend (running on port 3000) to call this API.
 # Without CORS, browsers block cross-origin requests for security reasons.
+_extra_origins = [o.strip() for o in os.getenv("ALLOWED_ORIGINS", "").split(",") if o.strip()]
+
 app.add_middleware(
     CORSMiddleware,
     allow_origins=[
@@ -97,9 +99,10 @@ app.add_middleware(
         "http://127.0.0.1:3000",
         "http://127.0.0.1:3001",
         "http://127.0.0.1:3002",
+        *_extra_origins,
     ],
     allow_credentials=True,
-    allow_methods=["*"],            # Allow GET, POST, OPTIONS, etc.
+    allow_methods=["*"],
     allow_headers=["*"],
 )
 
