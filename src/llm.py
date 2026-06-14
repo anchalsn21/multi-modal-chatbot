@@ -62,12 +62,12 @@ def _build_system_prompt(record: dict | None, intent: str) -> str:
     """
     if record is None:
         return (
-            "You are a helpful campus orientation assistant for BSBI (Berlin School of "
-            "Business and Innovation). You help students find locations, opening hours, "
+            "You are a helpful campus orientation assistant for Greenfield University. "
+            "You help students find locations, opening hours, "
             "events, departments, and study areas on campus.\n\n"
             "No matching campus record was found for this query. Politely tell the user "
             "you don't have that information and suggest they visit the main reception "
-            "or check the official BSBI website."
+            "or check the official Greenfield University website."
         )
 
     # Serialise the KB record as context — limit to relevant fields
@@ -83,8 +83,8 @@ def _build_system_prompt(record: dict | None, intent: str) -> str:
     }.get(intent, "Answer the user's question using the campus record provided.")
 
     return (
-        "You are a helpful campus orientation assistant for BSBI (Berlin School of "
-        "Business and Innovation). You help students find locations, opening hours, "
+        "You are a helpful campus orientation assistant for Greenfield University. "
+        "You help students find locations, opening hours, "
         "events, departments, and study areas on campus.\n\n"
         f"TASK: {intent_instructions}\n\n"
         "RULES:\n"
