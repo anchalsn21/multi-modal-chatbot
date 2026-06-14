@@ -1,0 +1,728 @@
+{
+  "locations": [
+    {
+      "id": "loc_001",
+      "name": "Main Library",
+      "type": "location",
+      "building": "Hartley Building",
+      "floor": "Ground to 3rd Floor",
+      "campus_zone": "North Campus",
+      "map_zone": "A",
+      "coordinates": { "x": 120, "y": 85 },
+      "description": "The central academic library offering silent study zones, group study rooms, printing services, and access to thousands of online and physical resources.",
+      "visual_description": "A multi-storey building with large shelves of books, reading desks with individual lamps, a main lending counter with staff, and a quiet study atmosphere throughout.",
+      "hours": {
+        "monday_friday": "08:00 - 22:00",
+        "saturday": "09:00 - 18:00",
+        "sunday": "10:00 - 18:00",
+        "bank_holidays": "Closed"
+      },
+      "service_hours": {
+        "help_desk": "Mon–Fri 09:00 - 19:00, Sat 10:00 - 16:00",
+        "printing_scanning": "Mon–Fri 08:00 - 21:30, Sat–Sun 09:00 - 17:30",
+        "book_returns": "24 hours (drop box outside main entrance)",
+        "it_support_desk": "Mon–Fri 09:00 - 18:00",
+        "silent_reading_room": "Mon–Fri 08:00 - 22:00, Sat–Sun 09:00 - 18:00"
+      },
+      "nearest_entrance": "North Gate, Hartley Road",
+      "image_dataset_path": "data/images/library",
+      "tags": ["library", "study", "books", "printing", "quiet", "resources", "reading", "research", "hartley"],
+      "response_variants": {
+        "find_location": [
+          "The **Main Library** is in the Hartley Building on North Campus — enter through North Gate on Hartley Road. It spans the ground to 3rd floor and has silent study zones, group rooms, and printing. Look for **Zone A** on the campus map.",
+          "Head to the **Hartley Building** on North Campus for the Main Library. It covers four floors with silent zones, group study rooms, and 24-hour book returns. Enter from North Gate on Hartley Road.",
+          "You're looking for the **Main Library**? It's in the Hartley Building, North Campus (Zone A). Go through North Gate — it's the large building with rows of books and study desks across four floors."
+        ],
+        "ask_hours": [
+          "The **Main Library** is open Monday to Friday 08:00–22:00, Saturday 09:00–18:00, and Sunday 10:00–18:00. It's closed on bank holidays. The help desk runs Mon–Fri 09:00–19:00.",
+          "You can visit the **Main Library** on weekdays from 8am until 10pm, Saturdays 9am–6pm, and Sundays 10am–6pm. The book return drop box is available 24 hours.",
+          "**Main Library** opening hours: weekdays 08:00–22:00, Saturday 09:00–18:00, Sunday 10:00–18:00. Printing and scanning is available until 21:30 on weekdays. Closed on bank holidays."
+        ],
+        "find_study_area": [
+          "The **Main Library** has several study options — silent reading rooms open until 10pm on weekdays, group study rooms, and individual desks with power sockets. It's in the Hartley Building, Zone A, North Campus.",
+          "For study space, the **Main Library** (Hartley Building, Zone A) is a great option. It has a silent reading room, group study rooms, and Wi-Fi throughout. Open until 10pm on weekdays."
+        ]
+      }
+    },
+    {
+      "id": "loc_002",
+      "name": "Reception",
+      "type": "location",
+      "building": "Chancellor Building",
+      "floor": "Ground Floor",
+      "campus_zone": "Central Campus",
+      "map_zone": "B",
+      "coordinates": { "x": 155, "y": 110 },
+      "description": "The main campus reception and information point. First point of contact for visitors, new students, and general queries. Issues visitor passes and directs to all campus services.",
+      "visual_description": "A bright open-plan reception area with a curved front desk staffed by receptionists, a waiting area with seating, and information boards listing campus services.",
+      "hours": {
+        "monday_friday": "08:00 - 18:00",
+        "saturday": "09:00 - 13:00",
+        "sunday": "Closed",
+        "bank_holidays": "Closed"
+      },
+      "service_hours": {
+        "visitor_passes": "Mon–Fri 08:00 - 18:00, Sat 09:00 - 13:00",
+        "general_enquiries": "Mon–Fri 08:00 - 18:00"
+      },
+      "nearest_entrance": "Main Gate, Chancellor Square",
+      "image_dataset_path": "data/images/reception",
+      "tags": ["reception", "main entrance", "visitor", "information", "front desk", "chancellor", "welcome"],
+      "response_variants": {
+        "find_location": [
+          "**Reception** is on the ground floor of the Chancellor Building, right at the heart of Central Campus. Come in through the Main Gate at Chancellor Square — you'll see the curved front desk straight ahead. It's your first stop for visitor passes and general queries.",
+          "The main **Reception** is in Chancellor Building, Central Campus — enter from Main Gate at Chancellor Square. The front desk is staffed during opening hours and can direct you to any service on campus.",
+          "Head to **Chancellor Building** through the Main Gate — Reception is on the ground floor, Zone B. It's the open-plan area with a curved desk and information boards."
+        ],
+        "ask_hours": [
+          "**Reception** is open Monday to Friday 08:00–18:00, and Saturday 09:00–13:00. It's closed on Sundays and bank holidays. Visitor passes can be issued any time during these hours.",
+          "The main **Reception** desk operates weekdays from 8am to 6pm, and Saturday mornings from 9am to 1pm.",
+          "**Reception** opening hours: Mon–Fri 08:00–18:00, Sat 09:00–13:00. Closed Sundays and bank holidays."
+        ]
+      }
+    },
+    {
+      "id": "loc_003",
+      "name": "Administration Office",
+      "type": "location",
+      "building": "Chancellor Building",
+      "floor": "Ground Floor",
+      "campus_zone": "Central Campus",
+      "map_zone": "B",
+      "coordinates": { "x": 157, "y": 110 },
+      "description": "Central administration for enrolment, fee payments, ID cards, timetables, and general student records. Visit during office hours for in-person support.",
+      "visual_description": "A ground-floor office with a walk-in counter staffed by administrators, a queue management screen above the counter, and student records notice boards on the wall.",
+      "hours": {
+        "monday_friday": "08:30 - 17:00",
+        "saturday": "Closed",
+        "sunday": "Closed",
+        "bank_holidays": "Closed"
+      },
+      "service_hours": {
+        "general_enquiries_counter": "Mon–Fri 09:00 - 16:30 (walk-in)",
+        "enrolment_and_registration": "Mon–Fri 09:00 - 15:00",
+        "fee_payments": "Mon–Fri 09:00 - 16:00 (online payments preferred; cash not accepted)",
+        "id_card_issuance": "Mon–Fri 09:30 - 15:30 (bring passport or photo ID; cards issued same day)",
+        "timetable_queries": "Mon–Fri 09:00 - 17:00 (email admin@greenfield.ac.uk or visit in person)"
+      },
+      "nearest_entrance": "Main Gate, Chancellor Square",
+      "image_dataset_path": "data/images/administration_office",
+      "tags": ["admin", "administration", "enrolment", "enrollment", "fees", "id card", "timetable", "records", "registration", "chancellor"],
+      "response_variants": {
+        "find_location": [
+          "The **Administration Office** is on the ground floor of Chancellor Building, Central Campus — enter through Main Gate at Chancellor Square. It's in **Zone B** on the campus map. You'll see the walk-in counter and queue screen as you go in.",
+          "Head to **Chancellor Building** through the Main Gate — Admin is on the ground floor at Zone B. They handle enrolment, fee payments, ID cards, and timetable queries. The walk-in counter is open until 4:30pm.",
+          "**Administration Office** is at Zone B, ground floor of Chancellor Building. Walk in from the Main Gate. ID cards are issued same-day if you bring photo ID, and fee payments must be made by card (no cash)."
+        ],
+        "ask_hours": [
+          "The **Administration Office** is open Monday to Friday 08:30–17:00. The walk-in counter runs 09:00–16:30. ID card issuance is 09:30–15:30 — bring your passport or photo ID. Fee payments are accepted until 4pm (card only).",
+          "**Admin Office** hours: weekdays 08:30–17:00, closed weekends. Enrolment and registration is processed until 3pm. If you need an ID card, arrive before 15:30 with photo ID.",
+          "The **Administration Office** in Chancellor Building is open Mon–Fri 08:30–17:00. Walk-ins welcome until 16:30. ID cards are issued same-day (09:30–15:30). Online fee payments are preferred — no cash accepted."
+        ]
+      }
+    },
+    {
+      "id": "loc_004",
+      "name": "Cafeteria",
+      "type": "location",
+      "building": "Cavendish Building",
+      "floor": "Ground Floor",
+      "campus_zone": "Central Campus",
+      "map_zone": "C",
+      "coordinates": { "x": 158, "y": 102 },
+      "description": "The largest dining venue on campus serving hot meals, salads, sandwiches, and daily specials. Vegan and halal options available.",
+      "visual_description": "A bright open-plan dining room with self-service food counters along one wall, rows of tables and chairs, large windows with natural light, and a coffee station near the entrance.",
+      "hours": {
+        "monday_friday": "07:30 - 19:00",
+        "saturday": "09:00 - 15:00",
+        "sunday": "Closed",
+        "bank_holidays": "Closed"
+      },
+      "meal_service": {
+        "breakfast": "Mon–Fri 07:30 - 10:00",
+        "lunch": "Mon–Fri 11:30 - 14:30",
+        "afternoon_snacks": "Mon–Fri 14:30 - 17:00",
+        "dinner": "Mon–Fri 17:00 - 19:00",
+        "saturday_brunch": "Sat 09:00 - 15:00"
+      },
+      "notes": "Card payments only. Student discount with valid ID. Vegan, halal, and gluten-free options always available.",
+      "nearest_entrance": "Central Plaza",
+      "image_dataset_path": "data/images/cafeteria",
+      "tags": ["cafeteria", "canteen", "food", "lunch", "dinner", "breakfast", "dining", "eating", "vegan", "halal", "cavendish"],
+      "response_variants": {
+        "find_location": [
+          "The **Cafeteria** is on the ground floor of the Cavendish Building, Central Campus — enter from Central Plaza. It's the bright open dining room with self-service counters and a coffee station near the entrance. Look for **Zone C** on the campus map.",
+          "Head to **Cavendish Building** at Central Plaza for the Cafeteria. It's the largest dining venue on campus with hot meals, salads, sandwiches, and a daily special. Vegan and halal options are always on the menu.",
+          "**Cafeteria** is at Zone C, ground floor of the Cavendish Building. Walk in from Central Plaza. Card payments only — bring your student ID for a discount."
+        ],
+        "ask_hours": [
+          "The **Cafeteria** is open Monday to Friday 07:30–19:00, and Saturday 09:00–15:00. It's closed Sundays and bank holidays. Breakfast is served until 10am, lunch 11:30–14:30, and dinner runs 17:00–19:00 on weekdays.",
+          "**Cafeteria** hours: weekdays 07:30–19:00, Saturday 09:00–15:00, closed Sundays. If you're catching breakfast, get there before 10am. Lunch service runs 11:30–14:30.",
+          "The **Cafeteria** opens at 7:30am on weekdays and serves until 7pm. On Saturdays it's open 9am–3pm for brunch only. Closed on Sundays and bank holidays."
+        ]
+      }
+    },
+    {
+      "id": "loc_005",
+      "name": "Computer Science Department",
+      "type": "location",
+      "building": "Zepler Building",
+      "floor": "Level 2 and 3",
+      "campus_zone": "North Campus",
+      "map_zone": "G",
+      "coordinates": { "x": 135, "y": 70 },
+      "description": "Covers undergraduate and postgraduate programmes in AI, software engineering, cybersecurity, and data science. Houses student computer labs and academic offices.",
+      "visual_description": "A modern building with rows of desktop computers at student workstations, large monitors, lab benches, and a technician support desk at the front of the room.",
+      "hours": {
+        "monday_friday": "08:00 - 22:00",
+        "saturday": "09:00 - 17:00",
+        "sunday": "Closed",
+        "bank_holidays": "Closed"
+      },
+      "service_hours": {
+        "general_enquiries": "Mon–Fri 09:00 - 17:00",
+        "student_support_tutor": "Tue & Thu 10:00 - 12:00 (drop-in for academic queries)",
+        "lab_access": "Mon–Fri 08:00 - 22:00, Sat 09:00 - 17:00 (requires student ID)",
+        "dissertation_supervision": "By appointment — contact your assigned supervisor directly"
+      },
+      "contact_email": "cs-enquiries@greenfield.ac.uk",
+      "contact_phone": "+44 20 7946 0100",
+      "nearest_entrance": "North Gate, Zepler Building",
+      "image_dataset_path": "data/images/cs_department",
+      "tags": ["computer science", "cs", "computing", "programming", "ai", "software", "data science", "cybersecurity", "zepler", "computer lab"],
+      "response_variants": {
+        "find_location": [
+          "The **Computer Science Department** is on levels 2 and 3 of the Zepler Building, North Campus. Enter through North Gate — the department has computer labs with rows of workstations. Look for **Zone G** on the campus map.",
+          "You'll find the **CS Department** in the Zepler Building at Zone G, North Campus. Go in through North Gate. The department covers AI, software engineering, cybersecurity, and data science.",
+          "**Computer Science** is in the Zepler Building, levels 2 and 3, North Campus. Use the North Gate entrance. You'll need your student ID for lab access. For enquiries email cs-enquiries@greenfield.ac.uk."
+        ],
+        "ask_hours": [
+          "The **CS Department** building is open Monday to Friday 08:00–22:00, and Saturday 09:00–17:00. The general enquiries office runs Mon–Fri 09:00–17:00. Student support drop-ins are on Tuesdays and Thursdays 10:00–12:00.",
+          "**Computer Science Department** hours: weekdays 08:00–22:00, Saturday 09:00–17:00, closed Sundays. Lab access requires your student ID.",
+          "The Zepler Building (**CS Department**) is open weekdays until 10pm and Saturdays until 5pm. The office for general enquiries is open Mon–Fri 09:00–17:00."
+        ],
+        "find_department": [
+          "The **Computer Science Department** is in the Zepler Building, levels 2 and 3, North Campus (Zone G). They cover AI, software engineering, cybersecurity, and data science. Contact them at cs-enquiries@greenfield.ac.uk or +44 20 7946 0100.",
+          "You're looking for the **CS Department** — it's in the Zepler Building on North Campus, Zone G. Office hours are Mon–Fri 09:00–17:00. Student support drop-ins run Tue and Thu 10:00–12:00."
+        ]
+      }
+    },
+    {
+      "id": "loc_006",
+      "name": "Auditorium",
+      "type": "location",
+      "building": "Zepler Building",
+      "floor": "Ground Floor",
+      "campus_zone": "North Campus",
+      "map_zone": "G",
+      "coordinates": { "x": 138, "y": 68 },
+      "description": "The largest event and lecture venue on campus, seating up to 500 people. Used for keynote speakers, graduation ceremonies, large conferences, and campus-wide events.",
+      "visual_description": "A large tiered auditorium with curved rows of fixed seating, a wide stage with a podium and projection screens, professional stage lighting overhead, and double entry doors at the back.",
+      "hours": {
+        "monday_friday": "08:00 - 22:00",
+        "saturday": "09:00 - 17:00",
+        "sunday": "Closed",
+        "bank_holidays": "Closed"
+      },
+      "service_hours": {
+        "timetabled_events": "As per academic and events calendar",
+        "room_bookings": "Contact events@greenfield.ac.uk"
+      },
+      "nearest_entrance": "North Gate, Zepler Building (Ground Floor)",
+      "image_dataset_path": "data/images/auditorium",
+      "tags": ["auditorium", "event venue", "graduation", "keynote", "conference", "large hall", "stage", "zepler"],
+      "response_variants": {
+        "find_location": [
+          "The **Auditorium** is on the ground floor of the Zepler Building, North Campus. Enter through North Gate — it's the large curved hall with tiered seating and a stage. Find it at **Zone G** on the campus map.",
+          "You'll find the **Auditorium** in the Zepler Building, ground floor, Zone G on North Campus. It seats up to 500 and is used for graduations, keynotes, and large events. Enter from North Gate.",
+          "**Auditorium** is inside the Zepler Building at Zone G, North Campus. Go through North Gate and look for the large double-door entrance. For event bookings contact events@greenfield.ac.uk."
+        ],
+        "ask_hours": [
+          "The **Auditorium** is accessible Monday to Friday 08:00–22:00 and Saturday 09:00–17:00. It's closed Sundays. Events and lectures run according to the academic calendar — check your schedule or contact events@greenfield.ac.uk.",
+          "**Auditorium** access hours: weekdays 08:00–22:00, Saturday 09:00–17:00. Events follow the academic calendar. To book the venue contact events@greenfield.ac.uk.",
+          "The **Auditorium** is open when the Zepler Building is open — Mon–Fri 08:00–22:00, Sat 09:00–17:00. Bookings via events@greenfield.ac.uk."
+        ]
+      }
+    },
+    {
+      "id": "loc_007",
+      "name": "Classroom / Teaching Room",
+      "type": "location",
+      "building": "Zepler Building",
+      "floor": "Various Floors",
+      "campus_zone": "North Campus",
+      "map_zone": "G",
+      "coordinates": { "x": 136, "y": 71 },
+      "description": "Standard teaching classrooms used for seminars, tutorials, and small-group sessions. Equipped with whiteboards, projectors, and movable seating arrangements.",
+      "visual_description": "A standard classroom with rows of desks and chairs, a whiteboard or smartboard at the front, a projector mounted on the ceiling, and windows along one wall.",
+      "hours": {
+        "monday_friday": "08:00 - 22:00",
+        "saturday": "09:00 - 17:00",
+        "sunday": "Closed",
+        "bank_holidays": "Closed"
+      },
+      "service_hours": {
+        "timetabled_classes": "As per academic timetable",
+        "room_bookings": "Contact timetabling@greenfield.ac.uk"
+      },
+      "nearest_entrance": "Zepler Building, North Campus",
+      "image_dataset_path": "data/images/classroom",
+      "tags": ["classroom", "teaching room", "tutorial", "seminar", "lecture", "class", "teaching", "room booking", "zepler"],
+      "response_variants": {
+        "find_location": [
+          "**Classrooms** are located throughout the Zepler Building on North Campus (Zone G). Check your timetable for the specific room number — they are on multiple floors with projectors and whiteboards. Enter through North Gate.",
+          "Teaching rooms and **classrooms** are spread across the Zepler Building at Zone G, North Campus. Your timetable will show your room number. All rooms have a projector and whiteboard.",
+          "For a **classroom or teaching room**, check your academic timetable — rooms are allocated in the Zepler Building (Zone G). Contact timetabling@greenfield.ac.uk if you need to book a room."
+        ],
+        "ask_hours": [
+          "**Classrooms** are accessible when the Zepler Building is open: Monday to Friday 08:00–22:00, Saturday 09:00–17:00. Class schedules follow your academic timetable.",
+          "Teaching rooms in the **Zepler Building** are open weekdays 08:00–22:00, Saturday 09:00–17:00. Your timetabled sessions are listed in your student portal.",
+          "The **classrooms** in Zone G are open Mon–Fri 08:00–22:00 and Saturday 09:00–17:00. Timetabled sessions follow your academic schedule — check your student portal."
+        ]
+      }
+    },
+    {
+      "id": "loc_008",
+      "name": "Gymnasium",
+      "type": "location",
+      "building": "Athletico Complex",
+      "floor": "Ground Floor",
+      "campus_zone": "East Campus",
+      "map_zone": "K",
+      "coordinates": { "x": 198, "y": 118 },
+      "description": "A fully equipped fitness gymnasium with free weights, cardio machines, resistance equipment, and group fitness classes. Student membership available at discounted rates.",
+      "visual_description": "A large open gym floor with rows of treadmills and cardio machines, free-weight racks, mirrored walls, and motivational signage on the walls.",
+      "hours": {
+        "monday_friday": "06:30 - 22:00",
+        "saturday": "07:00 - 20:00",
+        "sunday": "08:00 - 18:00",
+        "bank_holidays": "10:00 - 16:00"
+      },
+      "service_hours": {
+        "gym_floor": "Mon–Fri 06:30 - 22:00, Sat 07:00 - 20:00, Sun 08:00 - 18:00",
+        "group_fitness_classes": "Check timetable at reception",
+        "personal_training": "By appointment — enquire at reception",
+        "membership_desk": "Mon–Fri 08:00 - 20:00, Sat 08:00 - 17:00"
+      },
+      "nearest_entrance": "East Gate, Sports Drive",
+      "image_dataset_path": "data/images/gym",
+      "tags": ["gym", "gymnasium", "fitness", "weights", "cardio", "exercise", "workout", "training", "athletico"],
+      "response_variants": {
+        "find_location": [
+          "The **Gymnasium** is in the Athletico Complex on East Campus — enter through East Gate off Sports Drive. It's a large open gym floor with cardio machines, free weights, and resistance equipment. Find it at **Zone K** on the campus map.",
+          "Head to East Campus via East Gate on Sports Drive — the **Gymnasium** (Athletico Complex) is right there at Zone K. It has all the standard gym equipment and group fitness classes. Student membership is available at a discount.",
+          "**Gymnasium** is at Zone K, East Campus. Go through East Gate off Sports Drive. The gym opens at 6:30am on weekdays — great for early morning sessions."
+        ],
+        "ask_hours": [
+          "The **Gymnasium** is open Monday to Friday 06:30–22:00, Saturday 07:00–20:00, and Sunday 08:00–18:00. On bank holidays it runs 10:00–16:00.",
+          "**Gymnasium** hours: weekdays 6:30am–10pm, Saturday 7am–8pm, Sunday 8am–6pm. The gym opens early on weekdays — perfect for morning sessions before lectures.",
+          "The **Gymnasium** at the Athletico Complex opens at 6:30am Monday to Friday. It closes at 10pm on weekdays, 8pm Saturdays, and 6pm Sundays. Bank holiday hours are 10am–4pm."
+        ]
+      }
+    },
+    {
+      "id": "loc_009",
+      "name": "Science Laboratory",
+      "type": "location",
+      "building": "Zepler Building",
+      "floor": "Level 1",
+      "campus_zone": "North Campus",
+      "map_zone": "G",
+      "coordinates": { "x": 134, "y": 73 },
+      "description": "Fully equipped science and research laboratories for undergraduate and postgraduate practical work. Houses chemistry, biology, and data science experiment facilities.",
+      "visual_description": "A laboratory room with long workbenches, scientific equipment including microscopes and centrifuges, chemical safety cabinets, lab coats on hooks near the door, and fume cupboards along the wall.",
+      "hours": {
+        "monday_friday": "08:00 - 20:00",
+        "saturday": "09:00 - 16:00",
+        "sunday": "Closed",
+        "bank_holidays": "Closed"
+      },
+      "service_hours": {
+        "supervised_lab_sessions": "As per timetable — must be accompanied by a demonstrator",
+        "lab_technician": "Mon–Fri 09:00 - 17:00 (lab prep and equipment queries)",
+        "bookings": "Through your module leader"
+      },
+      "nearest_entrance": "North Gate, Zepler Building (Level 1)",
+      "image_dataset_path": "data/images/laboratory",
+      "tags": ["laboratory", "lab", "science", "chemistry", "biology", "research", "practical", "experiment", "zepler"],
+      "response_variants": {
+        "find_location": [
+          "The **Science Laboratory** is on Level 1 of the Zepler Building, North Campus (Zone G). Enter through North Gate. Labs are equipped with benches, scientific instruments, and safety equipment. Your timetable will show your allocated lab session.",
+          "You'll find the **Science Lab** in the Zepler Building at Zone G, Level 1, North Campus. Go in through North Gate. All lab sessions must be supervised — check your timetable or contact your module leader.",
+          "**Science Laboratory** is at Zone G, Zepler Building, Level 1. It has chemistry, biology, and research equipment including microscopes, centrifuges, and fume cupboards. Always supervised — check your academic timetable."
+        ],
+        "ask_hours": [
+          "The **Science Laboratory** is accessible Monday to Friday 08:00–20:00, and Saturday 09:00–16:00. However, lab sessions must be supervised — access is allocated through your timetable.",
+          "**Lab** hours: weekdays 08:00–20:00, Saturday 09:00–16:00. All practical sessions are supervised by a demonstrator — your timetable will show your allocated slot.",
+          "The **Science Lab** in Zepler Building is open Mon–Fri 08:00–20:00. You need to be timetabled for a supervised session — contact your module leader to confirm your lab slot."
+        ]
+      }
+    },
+    {
+      "id": "loc_010",
+      "name": "Main Building",
+      "type": "location",
+      "building": "Chancellor Building",
+      "floor": "All Floors",
+      "campus_zone": "Central Campus",
+      "map_zone": "B",
+      "coordinates": { "x": 152, "y": 112 },
+      "description": "The central administrative and academic hub of campus. Houses the Reception, Administration Office, student support services, and senior management offices.",
+      "visual_description": "A prominent multi-storey building with a formal entrance facade, wide stone steps leading to large entrance doors, the university name or crest above the entrance, and a busy lobby inside.",
+      "hours": {
+        "monday_friday": "07:30 - 20:00",
+        "saturday": "09:00 - 13:00",
+        "sunday": "Closed",
+        "bank_holidays": "Closed"
+      },
+      "nearest_entrance": "Main Gate, Chancellor Square",
+      "image_dataset_path": "data/images/main_building",
+      "tags": ["main building", "chancellor", "headquarters", "campus centre", "central building", "administration", "entrance"],
+      "response_variants": {
+        "find_location": [
+          "The **Main Building** (Chancellor Building) is at the heart of Central Campus — enter from Main Gate at Chancellor Square. It's the large building with formal entrance steps and houses Reception, Admin, and senior offices. Find it at **Zone B** on the campus map.",
+          "Head to **Chancellor Square** at the Main Gate — that's the **Main Building**. It's the central hub of campus housing Reception on the ground floor and Administration on the upper floors.",
+          "The **Main Building** is at Zone B, Central Campus. Walk in from the Main Gate — it's the prominent building with the wide entrance steps. Reception and Admin are both inside."
+        ],
+        "ask_hours": [
+          "The **Main Building** is open Monday to Friday 07:30–20:00, and Saturday mornings 09:00–13:00. It's closed Sundays and bank holidays. Reception hours are shorter — Mon–Fri 08:00–18:00.",
+          "**Main Building** (Chancellor Building) is accessible weekdays 07:30–20:00 and Saturday 09:00–13:00. Internal services like Reception and Admin have their own service hours.",
+          "The **Main Building** opens at 7:30am on weekdays. It closes at 8pm Monday to Friday and at 1pm on Saturdays. Closed Sundays and bank holidays."
+        ]
+      }
+    },
+    {
+      "id": "loc_011",
+      "name": "Main Lecture Hall",
+      "type": "location",
+      "building": "Zepler Building",
+      "floor": "Ground Floor",
+      "campus_zone": "North Campus",
+      "map_zone": "G",
+      "coordinates": { "x": 137, "y": 69 },
+      "description": "A medium-sized lecture theatre on campus, seating up to 150 students. Used for scheduled lectures, seminar presentations, and departmental events.",
+      "visual_description": "A tiered lecture hall with fixed rows of seating, a large projection screen at the front, a lectern and whiteboard at the bottom, and LECTURE HALL signage on the double doors at the entrance.",
+      "hours": {
+        "monday_friday": "08:00 - 22:00",
+        "saturday": "09:00 - 17:00",
+        "sunday": "Closed",
+        "bank_holidays": "Closed"
+      },
+      "service_hours": {
+        "timetabled_lectures": "As per academic timetable",
+        "room_bookings": "Contact timetabling@greenfield.ac.uk"
+      },
+      "nearest_entrance": "North Gate, Zepler Building (Ground Floor)",
+      "image_dataset_path": "data/images/main_lecture_hall",
+      "tags": ["lecture hall", "lecture theatre", "teaching", "seminar", "presentation", "zepler", "timetable"],
+      "response_variants": {
+        "find_location": [
+          "The **Main Lecture Hall** is on the ground floor of the Zepler Building, North Campus. Enter through North Gate — it's the tiered theatre-style hall with double doors marked LECTURE HALL. It seats up to 150 students. Find it at **Zone G** on the campus map.",
+          "You'll find the **Main Lecture Hall** in the Zepler Building, ground floor, Zone G on North Campus. It's a tiered seating hall used for scheduled lectures and presentations. Enter from North Gate.",
+          "**Main Lecture Hall** is inside the Zepler Building at Zone G, North Campus. Go through North Gate and look for the double doors on the ground floor. For room bookings contact timetabling@greenfield.ac.uk."
+        ],
+        "ask_hours": [
+          "The **Main Lecture Hall** is accessible Monday to Friday 08:00–22:00 and Saturday 09:00–17:00. It's closed Sundays. Actual lectures run according to the academic timetable.",
+          "**Lecture Hall** access hours: weekdays 08:00–22:00, Saturday 09:00–17:00. Check your academic timetable for scheduled sessions. To book the room contact timetabling@greenfield.ac.uk.",
+          "The **Main Lecture Hall** is open when the Zepler Building is open — Mon–Fri 08:00–22:00, Sat 09:00–17:00."
+        ]
+      }
+    },
+    {
+      "id": "loc_012",
+      "name": "Seminar / Meeting Room",
+      "type": "location",
+      "building": "Zepler Building",
+      "floor": "Various Floors",
+      "campus_zone": "North Campus",
+      "map_zone": "G",
+      "coordinates": { "x": 135, "y": 72 },
+      "description": "Bookable seminar and meeting rooms for small-group sessions, staff meetings, student project discussions, and tutorial sessions. Equipped with AV systems and conference tables.",
+      "visual_description": "A small rectangular meeting room with a central conference table surrounded by chairs, a wall-mounted display screen or TV, a whiteboard on one wall, and a phone or video conferencing unit on the table.",
+      "hours": {
+        "monday_friday": "08:00 - 20:00",
+        "saturday": "09:00 - 16:00",
+        "sunday": "Closed",
+        "bank_holidays": "Closed"
+      },
+      "service_hours": {
+        "room_bookings": "Book via student portal or contact timetabling@greenfield.ac.uk",
+        "av_support": "Mon–Fri 09:00 - 17:00 (IT Help Desk)"
+      },
+      "nearest_entrance": "Zepler Building, North Campus",
+      "image_dataset_path": "data/images/meeting_room",
+      "tags": ["meeting room", "seminar room", "conference", "discussion", "group work", "booking", "av", "zepler"],
+      "response_variants": {
+        "find_location": [
+          "**Seminar and Meeting Rooms** are located throughout the Zepler Building on North Campus (Zone G). Book via the student portal or contact timetabling@greenfield.ac.uk. Check your booking confirmation for the specific room number.",
+          "**Meeting rooms** are spread across the Zepler Building at Zone G, North Campus. They are equipped with conference tables, screens, and AV systems. Book yours through the student portal.",
+          "For a **seminar or meeting room**, go to Zone G — Zepler Building, North Campus. Rooms are bookable via the student portal or by emailing timetabling@greenfield.ac.uk."
+        ],
+        "ask_hours": [
+          "**Meeting and seminar rooms** in the Zepler Building are available Monday to Friday 08:00–20:00, and Saturday 09:00–16:00. Bookings must be made in advance through the student portal.",
+          "**Seminar rooms** at Zone G are open weekdays 08:00–20:00, Saturday 09:00–16:00. Book in advance via the student portal or by emailing timetabling@greenfield.ac.uk.",
+          "The **meeting rooms** in Zepler Building are available Mon–Fri 08:00–20:00. All rooms must be pre-booked — use the student portal or email timetabling@greenfield.ac.uk."
+        ]
+      }
+    },
+    {
+      "id": "loc_013",
+      "name": "Sports Centre",
+      "type": "location",
+      "building": "Athletico Complex",
+      "floor": "Ground Floor",
+      "campus_zone": "East Campus",
+      "map_zone": "K",
+      "coordinates": { "x": 200, "y": 115 },
+      "description": "A fully equipped sports complex with a swimming pool, squash courts, indoor sports hall, and changing facilities. Student membership available at discounted rates.",
+      "visual_description": "A large modern sports complex with an outdoor signage board, a sports reception desk in the lobby, changing rooms signposted, a sports hall with court markings visible through interior windows.",
+      "hours": {
+        "monday_friday": "06:30 - 22:00",
+        "saturday": "07:00 - 20:00",
+        "sunday": "08:00 - 18:00",
+        "bank_holidays": "10:00 - 16:00"
+      },
+      "service_hours": {
+        "swimming_pool": "Mon–Fri 06:30 - 09:00 and 12:00 - 14:00 and 17:00 - 21:00; Sat–Sun 08:00 - 17:00",
+        "squash_courts": "Mon–Fri 07:00 - 21:30, Sat–Sun 08:00 - 18:00 (book online or at reception)",
+        "sports_hall": "Mon–Fri 08:00 - 22:00, Sat–Sun 08:00 - 18:00",
+        "reception_membership": "Mon–Fri 08:00 - 20:00, Sat 08:00 - 17:00"
+      },
+      "nearest_entrance": "East Gate, Sports Drive",
+      "image_dataset_path": "data/images/sports_centre",
+      "tags": ["sports centre", "swimming pool", "squash", "sports hall", "athletics", "pool", "courts", "athletico", "sports"],
+      "response_variants": {
+        "find_location": [
+          "The **Sports Centre** is in the Athletico Complex on East Campus — enter through East Gate off Sports Drive. It's the large complex at Zone K with a swimming pool, squash courts, and sports hall.",
+          "Head to East Campus via East Gate on Sports Drive — the **Sports Centre** (Athletico Complex) is right there at Zone K. It has a pool, squash courts, and a sports hall. Student membership is available at a discount.",
+          "**Sports Centre** is at Zone K, East Campus. Go through East Gate off Sports Drive. The sports hall and pool are accessible during opening hours."
+        ],
+        "ask_hours": [
+          "The **Sports Centre** is open Monday to Friday 06:30–22:00, Saturday 07:00–20:00, and Sunday 08:00–18:00. On bank holidays it runs 10:00–16:00. The swimming pool has specific session times — check the timetable at reception.",
+          "**Sports Centre** hours: weekdays 6:30am–10pm, Saturday 7am–8pm, Sunday 8am–6pm. The pool runs three sessions daily on weekdays. Squash courts can be booked online.",
+          "The **Sports Centre** opens at 6:30am Monday to Friday. It closes at 10pm on weekdays, 8pm Saturdays, and 6pm Sundays. Bank holiday hours are 10am–4pm."
+        ]
+      }
+    }
+  ],
+  "departments": [],
+  "events": [
+    {
+      "id": "evt_001",
+      "name": "Freshers Fair",
+      "type": "event",
+      "location": "Auditorium & Foyer",
+      "building": "Zepler Building",
+      "map_zone": "G",
+      "date": "September 2025",
+      "description": "The annual Freshers Fair welcoming new and returning students. Explore student clubs, societies, sports teams, and campus services all in one place.",
+      "tags": ["freshers", "freshers fair", "welcome week", "fresher", "induction", "clubs", "societies", "new students", "orientation"],
+      "response_variants": {
+        "find_event": [
+          "The **Freshers Fair** is held in the Auditorium and foyer of the Zepler Building (Zone G) during Welcome Week in September. It's the best place to discover student clubs, societies, sports teams, and campus services. Check the academic calendar or ask at Reception (Zone B) for exact dates.",
+          "**Freshers Fair** takes place at the Auditorium in the Zepler Building, Zone G, during Welcome Week in September. Explore clubs, societies, and campus services — it's a great way to get settled in. Ask at Reception for the confirmed date.",
+          "Looking for the **Freshers Fair**? It's held every September during Welcome Week in the Auditorium, Zepler Building (Zone G). You'll find student clubs, sports teams, and support services all in one place."
+        ]
+      }
+    },
+    {
+      "id": "evt_002",
+      "name": "Open Day",
+      "type": "event",
+      "location": "Main Building & Campus-wide",
+      "building": "Chancellor Building",
+      "map_zone": "B",
+      "date": "Various dates — check website",
+      "description": "Campus Open Days for prospective students. Includes guided tours, department presentations, and Q&A sessions with staff and current students.",
+      "tags": ["open day", "open days", "campus tour", "prospective students", "visit", "tour"],
+      "response_variants": {
+        "find_event": [
+          "**Open Days** are held throughout the year across campus. They start at the Main Building (Zone B) with registration, followed by department tours and Q&A sessions. Check the university website or ask at Reception for upcoming dates.",
+          "The **Open Day** starts at the Main Building (Zone B, Chancellor Building) with registration and a welcome talk. Prospective students then tour the campus including the Library, Zepler Building, and Athletico Complex.",
+          "**Campus Open Days** are your chance to visit us in person. Registration is at the Main Building (Zone B). Ask Reception for the next scheduled date."
+        ]
+      }
+    },
+    {
+      "id": "evt_003",
+      "name": "Graduation Ceremony",
+      "type": "event",
+      "location": "Auditorium",
+      "building": "Zepler Building",
+      "map_zone": "G",
+      "date": "July each year",
+      "description": "The annual graduation ceremony held in the Auditorium. Students, families, and staff celebrate academic achievements across all programmes.",
+      "tags": ["graduation", "graduation ceremony", "graduation day", "degree ceremony", "convocation", "ceremony"],
+      "response_variants": {
+        "find_event": [
+          "**Graduation** takes place every July in the Auditorium, Zepler Building (Zone G). It's the annual ceremony where students, families, and staff celebrate across all programmes. Tickets and gown hire details are sent via student email.",
+          "The **Graduation Ceremony** is held in the Auditorium at Zone G, Zepler Building, every July. Families are welcome — ticket allocation details are sent to your student email in advance.",
+          "**Graduation** is at the Auditorium in the Zepler Building (Zone G) each July. Check your student email for ticket and gown hire information. The ceremony is typically a full-day event."
+        ]
+      }
+    },
+    {
+      "id": "evt_004",
+      "name": "Library Induction",
+      "type": "event",
+      "location": "Main Library",
+      "building": "Hartley Building",
+      "map_zone": "A",
+      "date": "Start of each semester",
+      "description": "Guided library induction sessions for new students covering how to use library databases, request books, access online journals, and use the printing and scanning services.",
+      "tags": ["library induction", "library tour", "induction", "library session", "research skills", "new student"],
+      "response_variants": {
+        "find_event": [
+          "**Library Induction** sessions run at the start of each semester in the Main Library (Zone A, Hartley Building). They cover using databases, requesting books, accessing online journals, and printing services. Ask at the library help desk to register.",
+          "The **Library Induction** is held in the Main Library (Zone A) at the start of each semester. Librarians walk you through databases, online journals, book requests, and printing. Check the library noticeboard or help desk for session times.",
+          "New students can attend a **Library Induction** at the Hartley Building (Zone A) at the start of semester. Sessions are free and cover all the library's key services. Ask at the front desk to sign up."
+        ]
+      }
+    },
+    {
+      "id": "evt_005",
+      "name": "Sports Day",
+      "type": "event",
+      "location": "Sports Centre & Gymnasium",
+      "building": "Athletico Complex",
+      "map_zone": "K",
+      "date": "Spring term — check notice boards",
+      "description": "The annual campus Sports Day held at the Athletico Complex. Features team and individual competitions in swimming, squash, athletics, and fitness challenges.",
+      "tags": ["sports day", "sports event", "athletics", "competition", "fitness challenge", "sports competition"],
+      "response_variants": {
+        "find_event": [
+          "**Sports Day** is held at the Athletico Complex (Zone K) during the spring term. It features swimming, squash, athletics, and fitness challenges for individuals and teams. Check the Sports Centre notice boards or ask at reception for the date.",
+          "The campus **Sports Day** takes place at Zone K (Athletico Complex) in the spring term. All students are welcome to participate in swimming, squash, and athletics events. Details on the Sports Centre notice board.",
+          "**Sports Day** is at the Athletico Complex, Zone K, during spring term. Sign up at the Sports Centre reception or check the notice board for event categories and dates."
+        ]
+      }
+    }
+  ],
+  "study_areas": [],
+  "facilities": [],
+  "navigation": {
+    "zones": {
+      "A": { "name": "Main Library", "building": "Hartley Building", "campus_zone": "North Campus" },
+      "B": { "name": "Reception / Main Building / Administration Office", "building": "Chancellor Building", "campus_zone": "Central Campus" },
+      "C": { "name": "Cafeteria", "building": "Cavendish Building", "campus_zone": "Central Campus" },
+      "G": { "name": "Computer Science Department / Auditorium / Classroom / Laboratory / Main Lecture Hall / Seminar Rooms", "building": "Zepler Building", "campus_zone": "North Campus" },
+      "K": { "name": "Gymnasium / Sports Centre", "building": "Athletico Complex", "campus_zone": "East Campus" }
+    },
+    "routes": [
+      {
+        "from": "Main Gate",
+        "to_zone": "B",
+        "description": "Enter through Main Gate. Zone B (Reception / Main Building) is directly ahead in Chancellor Building, Central Campus."
+      },
+      {
+        "from": "Main Gate",
+        "to_zone": "A",
+        "description": "Enter through Main Gate → walk straight north along Central Spine Road → at the North Campus junction, turn right → Zone A (Main Library, Hartley Building) is on your left."
+      },
+      {
+        "from": "Main Gate",
+        "to_zone": "K",
+        "description": "Enter through Main Gate → follow East Road to the East Gate → Zone K (Gymnasium / Sports Centre, Athletico Complex) is signposted from East Gate."
+      },
+      {
+        "from": "North Gate",
+        "to_zone": "A",
+        "description": "Enter through North Gate → Zone A (Main Library, Hartley Building) is the large building immediately on your right."
+      },
+      {
+        "from": "North Gate",
+        "to_zone": "G",
+        "description": "Enter through North Gate → walk south along Hartley Road → Zone G (CS Department / Auditorium / Lecture Hall, Zepler Building) is on your left, just past the library."
+      },
+      {
+        "from": "East Gate",
+        "to_zone": "K",
+        "description": "Enter through East Gate off Sports Drive → Zone K (Gymnasium / Sports Centre, Athletico Complex) is immediately visible on your left."
+      }
+    ],
+    "cross_zone_directions": [
+      {
+        "from_zone": "A",
+        "to_zone": "K",
+        "steps": ["From Zone A (Library), head south on Central Spine Road.", "At the Central Plaza (Zone C), turn left onto East Road.", "Follow East Road to Zone K (Gymnasium / Sports Centre)."]
+      },
+      {
+        "from_zone": "G",
+        "to_zone": "C",
+        "steps": ["From Zone G (Zepler Building), walk south along Hartley Road.", "At the North Campus junction, continue south on Central Spine Road.", "Zone C (Cafeteria) is on your right at the Central Plaza."]
+      },
+      {
+        "from_zone": "G",
+        "to_zone": "K",
+        "steps": ["From Zone G (Zepler Building), walk south to the Central Plaza.", "Turn left onto East Road.", "Follow East Road east to East Gate — Zone K (Gymnasium / Sports Centre) is just outside."]
+      }
+    ]
+  },
+  "synonyms": {
+    "library": "Main Library",
+    "the library": "Main Library",
+    "hartley": "Main Library",
+    "hartley building": "Main Library",
+    "gym": "Gymnasium",
+    "fitness": "Gymnasium",
+    "fitness centre": "Gymnasium",
+    "fitness center": "Gymnasium",
+    "weights room": "Gymnasium",
+    "cardio": "Gymnasium",
+    "workout": "Gymnasium",
+    "sports centre": "Sports Centre",
+    "sports center": "Sports Centre",
+    "swimming pool": "Sports Centre",
+    "pool": "Sports Centre",
+    "squash": "Sports Centre",
+    "sports hall": "Sports Centre",
+    "cafeteria": "Cafeteria",
+    "canteen": "Cafeteria",
+    "food hall": "Cafeteria",
+    "dining hall": "Cafeteria",
+    "main cafeteria": "Cafeteria",
+    "cafe": "Cafeteria",
+    "admin": "Administration Office",
+    "administration": "Administration Office",
+    "main office": "Administration Office",
+    "registration": "Administration Office",
+    "enrolment": "Administration Office",
+    "enrollment": "Administration Office",
+    "reception": "Reception",
+    "front desk": "Reception",
+    "main reception": "Reception",
+    "information desk": "Reception",
+    "visitor": "Reception",
+    "CS": "Computer Science Department",
+    "computing": "Computer Science Department",
+    "comp sci": "Computer Science Department",
+    "computer science": "Computer Science Department",
+    "zepler": "Computer Science Department",
+    "computer lab": "Computer Science Department",
+    "auditorium": "Auditorium",
+    "main auditorium": "Auditorium",
+    "event hall": "Auditorium",
+    "graduation hall": "Auditorium",
+    "lecture hall": "Main Lecture Hall",
+    "lecture theatre": "Main Lecture Hall",
+    "classroom": "Classroom / Teaching Room",
+    "teaching room": "Classroom / Teaching Room",
+    "tutorial room": "Classroom / Teaching Room",
+    "seminar room": "Seminar / Meeting Room",
+    "meeting room": "Seminar / Meeting Room",
+    "conference room": "Seminar / Meeting Room",
+    "lab": "Science Laboratory",
+    "laboratory": "Science Laboratory",
+    "science lab": "Science Laboratory",
+    "main building": "Main Building",
+    "chancellor building": "Main Building",
+    "campus centre": "Main Building"
+  },
+  "fallbacks": {
+    "unknown_location": "I couldn't find that location in my campus map. I can help you find: Main Library (Zone A), Reception / Main Building / Administration Office (Zone B), Cafeteria (Zone C), CS Department / Auditorium / Classrooms / Lab / Lecture Hall / Meeting Rooms (Zone G), or Gymnasium / Sports Centre (Zone K). Try asking 'Where is the library?' or 'How do I get to the gym?'",
+    "unknown_department": "I couldn't find that department. I know about: Computer Science Department (Zone G). Try asking 'Where is the CS department?' or 'Where are the computer labs?'",
+    "unknown_intent": "I'm not sure what you're looking for. I can help with: finding locations, opening hours, directions between zones, and general campus information. For example: 'Where is the library?', 'How do I get from A to K?', 'What time does the gym open?', or 'Where is the auditorium?'",
+    "low_confidence": "I didn't quite understand that. Could you rephrase? For example: 'Where is the library?', 'How do I get to the sports centre?', 'What time does the cafeteria close?', or 'Where is the main lecture hall?'",
+    "no_route": "I don't have a specific route for that journey, but every zone is labelled on the campus map. Head to any campus gate and follow the zone signs, or ask at the Administration Office (Zone B, Chancellor Building)."
+  }
+}

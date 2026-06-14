@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="840" viewBox="0 0 960 840">
+  <defs>
+    <style>
+      .title       { font-family: Georgia, serif; font-size: 20px; font-weight: bold; fill: white; }
+      .zone-label  { font-family: Arial, sans-serif; font-size: 11px; font-weight: bold;
+                     fill: rgba(0,0,0,0.30); letter-spacing: 2px; }
+      .mk-circle   { stroke: #fff; stroke-width: 2; }
+      .mk-letter   { font-family: Arial Black, Arial, sans-serif; font-size: 10px; font-weight: 900;
+                     fill: white; text-anchor: middle; dominant-baseline: central; }
+      .mk-name     { font-family: Arial, sans-serif; font-size: 8px; font-weight: bold;
+                     fill: #1a1a2e; text-anchor: middle; }
+      .mk-sub      { font-family: Arial, sans-serif; font-size: 7px; fill: #555; text-anchor: middle; }
+      .gate-label  { font-family: Arial, sans-serif; font-size: 8px; font-weight: bold;
+                     fill: #5d4037; text-anchor: middle; }
+      .road        { fill: none; stroke: #bfb49e; stroke-width: 7; stroke-linecap: round; }
+      .road-inner  { fill: none; stroke: #f0e8d8; stroke-width: 3.5; stroke-linecap: round; }
+      .leg-title   { font-family: Arial, sans-serif; font-size: 10px; font-weight: bold; fill: #1a1a2e; }
+      .leg-text    { font-family: Arial, sans-serif; font-size: 8.5px; fill: #333; }
+      .compass-txt { font-family: Arial, sans-serif; font-size: 10px; font-weight: bold;
+                     fill: #1a1a2e; text-anchor: middle; }
+      .bldg-label  { font-family: Arial, sans-serif; font-size: 7.5px; fill: rgba(0,0,0,0.32);
+                     text-anchor: middle; font-style: italic; }
+      .zone-badge  { font-family: Arial Black, Arial, sans-serif; font-size: 13px; font-weight: 900;
+                     fill: rgba(0,0,0,0.12); text-anchor: middle; dominant-baseline: central; }
+    </style>
+    <filter id="sh">
+      <feDropShadow dx="2" dy="2" stdDeviation="3" flood-color="rgba(0,0,0,0.22)" />
+    </filter>
+    <filter id="lsh">
+      <feDropShadow dx="1" dy="1" stdDeviation="1.5" flood-color="rgba(0,0,0,0.15)" />
+    </filter>
+  </defs>
+
+  <!-- Page background -->
+  <rect width="960" height="840" fill="#ede9e0" />
+
+  <!-- TITLE BAR -->
+  <rect x="30" y="10" width="900" height="36" rx="8" fill="#1a1a2e" filter="url(#sh)" />
+  <text x="480" y="34" text-anchor="middle" class="title">Greenfield University — Campus Map</text>
+
+  <!-- CAMPUS BOUNDARY -->
+  <rect x="50" y="55" width="860" height="580" rx="16" fill="#d8d3c8" stroke="#7a6e5e" stroke-width="2.5" filter="url(#sh)" />
+
+  <!-- ── Zone fills ── -->
+  <!-- Zone A — Hartley Building — far left, north -->
+  <rect x="55"  y="60"  width="200" height="250" rx="10" fill="#cce5f7" stroke="#85b8d4" stroke-width="1.2" opacity="0.92" />
+  <!-- Zone B — Chancellor Building — centre, north+mid -->
+  <rect x="255" y="60"  width="230" height="340" rx="10" fill="#fffcb8" stroke="#d4b800" stroke-width="1.4" opacity="0.92" />
+  <!-- Zone C — Cavendish Building — left, mid -->
+  <rect x="55"  y="310" width="200" height="190" rx="10" fill="#ffd6a5" stroke="#e88000" stroke-width="1.2" opacity="0.88" />
+  <!-- Zone G — Zepler Building — right column, full height -->
+  <rect x="485" y="60"  width="420" height="430" rx="10" fill="#ffdcaa" stroke="#e67e00" stroke-width="1.4" opacity="0.90" />
+  <!-- Zone K — Athletico Complex — bottom centre/right -->
+  <rect x="255" y="400" width="230" height="230" rx="10" fill="#c5e8c6" stroke="#4caf50" stroke-width="1.4" opacity="0.92" />
+
+  <!-- ── Zone watermark letters ── -->
+  <text x="155"  y="195"  class="zone-badge">A</text>
+  <text x="370"  y="230"  class="zone-badge">B</text>
+  <text x="155"  y="410"  class="zone-badge">C</text>
+  <text x="695"  y="285"  class="zone-badge">G</text>
+  <text x="370"  y="515"  class="zone-badge">K</text>
+
+  <!-- ── Roads ── -->
+  <!-- North-South spine -->
+  <line x1="370" y1="60"  x2="370" y2="635" class="road" />
+  <line x1="370" y1="60"  x2="370" y2="635" class="road-inner" />
+  <!-- East-West spine -->
+  <line x1="50"  y1="400" x2="910" y2="400" class="road" />
+  <line x1="50"  y1="400" x2="910" y2="400" class="road-inner" />
+  <!-- NE connector to Zepler -->
+  <path d="M 485 200 Q 440 160 400 130" class="road" />
+  <path d="M 485 200 Q 440 160 400 130" class="road-inner" />
+
+  <!-- ── Zone labels ── -->
+  <text x="155"  y="80"  text-anchor="middle" class="zone-label">HARTLEY BLDG</text>
+  <text x="370"  y="80"  text-anchor="middle" class="zone-label">CHANCELLOR BLDG</text>
+  <text x="155"  y="330" text-anchor="middle" class="zone-label">CAVENDISH BLDG</text>
+  <text x="695"  y="80"  text-anchor="middle" class="zone-label">ZEPLER BUILDING</text>
+  <text x="370"  y="420" text-anchor="middle" class="zone-label">ATHLETICO CPLX</text>
+
+  <!-- ── Building outlines ── -->
+  <rect x="65"  y="90"  width="170" height="200" rx="6" fill="none" stroke="#85b8d4" stroke-width="1.2" stroke-dasharray="5,3" opacity="0.55"/>
+  <rect x="268" y="90"  width="200" height="310" rx="6" fill="none" stroke="#d4b800" stroke-width="1.2" stroke-dasharray="5,3" opacity="0.55"/>
+  <rect x="65"  y="340" width="170" height="140" rx="6" fill="none" stroke="#e88000" stroke-width="1.2" stroke-dasharray="5,3" opacity="0.55"/>
+  <rect x="500" y="90"  width="380" height="380" rx="8" fill="none" stroke="#e67e00" stroke-width="1.5" stroke-dasharray="6,3" opacity="0.50"/>
+  <rect x="268" y="430" width="200" height="180" rx="6" fill="none" stroke="#4caf50" stroke-width="1.2" stroke-dasharray="5,3" opacity="0.55"/>
+
+  <!-- ── Gates ── -->
+  <rect x="350" y="53"  width="40" height="10" rx="3" fill="#8d6e63" stroke="#5d4037" stroke-width="1.2" />
+  <text x="370" y="75"  class="gate-label">NORTH GATE</text>
+
+  <rect x="350" y="627" width="40" height="10" rx="3" fill="#5d4037" stroke="#3e2723" stroke-width="1.8" />
+  <polygon points="370,637 360,650 380,650" fill="#5d4037" />
+  <text x="370" y="664" class="gate-label">MAIN GATE</text>
+
+  <rect x="900" y="390" width="10" height="20" rx="3" fill="#8d6e63" stroke="#5d4037" stroke-width="1.2" />
+  <text x="918" y="402" class="gate-label" text-anchor="start">EAST GATE</text>
+
+  <rect x="50"  y="390" width="10" height="20" rx="3" fill="#8d6e63" stroke="#5d4037" stroke-width="1.2" />
+  <text x="48"  y="402" class="gate-label" text-anchor="end">WEST GATE</text>
+
+  <!-- ══════════════════════════════════
+       MAP MARKERS
+  ═══════════════════════════════════ -->
+
+  <!-- ZONE A — Main Library -->
+  <circle cx="155" cy="175" r="15" class="mk-circle" fill="#1565c0" filter="url(#lsh)" />
+  <text x="155" y="176" class="mk-letter">A</text>
+  <rect x="104" y="195" width="102" height="26" rx="3" fill="white" opacity="0.90" />
+  <text x="155" y="205" class="mk-name">Main Library</text>
+  <text x="155" y="215" class="mk-sub">(Hartley Building)</text>
+
+  <!-- ZONE B — Reception -->
+  <circle cx="300" cy="130" r="15" class="mk-circle" fill="#f57f17" filter="url(#lsh)" />
+  <text x="300" y="131" class="mk-letter">B</text>
+  <rect x="254" y="150" width="92" height="26" rx="3" fill="white" opacity="0.90" />
+  <text x="300" y="160" class="mk-name">Reception</text>
+  <text x="300" y="170" class="mk-sub">(Chancellor Bldg)</text>
+
+  <!-- ZONE B — Main Building -->
+  <circle cx="420" cy="130" r="15" class="mk-circle" fill="#e65100" filter="url(#lsh)" />
+  <text x="420" y="131" class="mk-letter">B</text>
+  <rect x="370" y="150" width="100" height="26" rx="3" fill="white" opacity="0.90" />
+  <text x="420" y="160" class="mk-name">Main Building</text>
+  <text x="420" y="170" class="mk-sub">(Chancellor Bldg)</text>
+
+  <!-- ZONE B — Administration Office -->
+  <circle cx="360" cy="310" r="15" class="mk-circle" fill="#bf360c" filter="url(#lsh)" />
+  <text x="360" y="311" class="mk-letter">B</text>
+  <rect x="298" y="330" width="124" height="26" rx="3" fill="white" opacity="0.90" />
+  <text x="360" y="340" class="mk-name">Administration Office</text>
+  <text x="360" y="350" class="mk-sub">(Chancellor Bldg)</text>
+
+  <!-- ZONE C — Cafeteria -->
+  <circle cx="155" cy="405" r="15" class="mk-circle" fill="#e65c00" filter="url(#lsh)" />
+  <text x="155" y="406" class="mk-letter">C</text>
+  <rect x="108" y="425" width="94" height="26" rx="3" fill="white" opacity="0.90" />
+  <text x="155" y="435" class="mk-name">Cafeteria</text>
+  <text x="155" y="445" class="mk-sub">(Cavendish Bldg)</text>
+
+  <!-- ZONE G — CS Department (top-left of Zepler) -->
+  <circle cx="560" cy="120" r="14" class="mk-circle" fill="#bf360c" filter="url(#lsh)" />
+  <text x="560" y="121" class="mk-letter">G</text>
+  <rect x="508" y="138" width="104" height="26" rx="3" fill="white" opacity="0.90" />
+  <text x="560" y="148" class="mk-name">CS Department</text>
+  <text x="560" y="158" class="mk-sub">(Zepler Bldg)</text>
+
+  <!-- ZONE G — Auditorium (top-right) -->
+  <circle cx="740" cy="120" r="14" class="mk-circle" fill="#bf360c" filter="url(#lsh)" />
+  <text x="740" y="121" class="mk-letter">G</text>
+  <rect x="694" y="138" width="92" height="26" rx="3" fill="white" opacity="0.90" />
+  <text x="740" y="148" class="mk-name">Auditorium</text>
+  <text x="740" y="158" class="mk-sub">(Zepler Bldg)</text>
+
+  <!-- ZONE G — Main Lecture Hall (mid-left) -->
+  <circle cx="560" cy="230" r="14" class="mk-circle" fill="#bf360c" filter="url(#lsh)" />
+  <text x="560" y="231" class="mk-letter">G</text>
+  <rect x="504" y="248" width="112" height="26" rx="3" fill="white" opacity="0.90" />
+  <text x="560" y="258" class="mk-name">Main Lecture Hall</text>
+  <text x="560" y="268" class="mk-sub">(Zepler Bldg)</text>
+
+  <!-- ZONE G — Classroom (mid-right) -->
+  <circle cx="740" cy="230" r="14" class="mk-circle" fill="#bf360c" filter="url(#lsh)" />
+  <text x="740" y="231" class="mk-letter">G</text>
+  <rect x="694" y="248" width="92" height="26" rx="3" fill="white" opacity="0.90" />
+  <text x="740" y="258" class="mk-name">Classroom</text>
+  <text x="740" y="268" class="mk-sub">(Zepler Bldg)</text>
+
+  <!-- ZONE G — Science Laboratory (lower-left) -->
+  <circle cx="560" cy="340" r="14" class="mk-circle" fill="#bf360c" filter="url(#lsh)" />
+  <text x="560" y="341" class="mk-letter">G</text>
+  <rect x="500" y="358" width="120" height="26" rx="3" fill="white" opacity="0.90" />
+  <text x="560" y="368" class="mk-name">Science Laboratory</text>
+  <text x="560" y="378" class="mk-sub">(Zepler Bldg)</text>
+
+  <!-- ZONE G — Meeting Room (lower-right) -->
+  <circle cx="740" cy="340" r="14" class="mk-circle" fill="#bf360c" filter="url(#lsh)" />
+  <text x="740" y="341" class="mk-letter">G</text>
+  <rect x="688" y="358" width="104" height="26" rx="3" fill="white" opacity="0.90" />
+  <text x="740" y="368" class="mk-name">Meeting Room</text>
+  <text x="740" y="378" class="mk-sub">(Zepler Bldg)</text>
+
+  <!-- ZONE K — Gymnasium -->
+  <circle cx="320" cy="510" r="15" class="mk-circle" fill="#2e7d32" filter="url(#lsh)" />
+  <text x="320" y="511" class="mk-letter">K</text>
+  <rect x="274" y="530" width="92" height="26" rx="3" fill="white" opacity="0.90" />
+  <text x="320" y="540" class="mk-name">Gymnasium</text>
+  <text x="320" y="550" class="mk-sub">(Athletico Cplx)</text>
+
+  <!-- ZONE K — Sports Centre -->
+  <circle cx="430" cy="510" r="15" class="mk-circle" fill="#1b5e20" filter="url(#lsh)" />
+  <text x="430" y="511" class="mk-letter">K</text>
+  <rect x="382" y="530" width="96" height="26" rx="3" fill="white" opacity="0.90" />
+  <text x="430" y="540" class="mk-name">Sports Centre</text>
+  <text x="430" y="550" class="mk-sub">(Athletico Cplx)</text>
+
+  <!-- Decorative greenery -->
+  <circle cx="155" cy="292" r="10" fill="#a5d6a7" opacity="0.55" />
+  <circle cx="168" cy="284" r="8"  fill="#81c784" opacity="0.55" />
+  <circle cx="142" cy="300" r="7"  fill="#a5d6a7" opacity="0.50" />
+  <ellipse cx="370" cy="580" rx="50" ry="20" fill="#a5d6a7" opacity="0.42" />
+  <circle cx="350" cy="576" r="10" fill="#66bb6a" opacity="0.45" />
+  <circle cx="372" cy="570" r="12" fill="#a5d6a7" opacity="0.45" />
+  <circle cx="393" cy="578" r="9"  fill="#66bb6a" opacity="0.45" />
+
+  <!-- COMPASS ROSE -->
+  <g transform="translate(880, 95)">
+    <circle cx="0" cy="0" r="26" fill="white" stroke="#888" stroke-width="1.2" opacity="0.92" />
+    <polygon points="0,-20 -6,-4 6,-4"  fill="#c0392b" />
+    <polygon points="0,20  -6,4  6,4"   fill="#777" />
+    <line x1="-20" y1="0" x2="20" y2="0" stroke="#777" stroke-width="1.2" />
+    <text x="0"  y="-24" class="compass-txt" font-size="10px" fill="#c0392b">N</text>
+    <text x="0"  y="32"  class="compass-txt" font-size="9px">S</text>
+    <text x="26" y="4"   class="compass-txt" font-size="9px" text-anchor="start">E</text>
+    <text x="-26" y="4" class="compass-txt" font-size="9px" text-anchor="end">W</text>
+  </g>
+
+  <!-- ══════════════════════════════════
+       LEGEND
+  ═══════════════════════════════════ -->
+  <rect x="30" y="648" width="900" height="178" rx="8" fill="white" stroke="#ccc" stroke-width="1" opacity="0.96" filter="url(#lsh)" />
+
+  <text x="480" y="668" text-anchor="middle" class="leg-title" font-size="11px">MAP LEGEND — 5 Zones, 13 Locations</text>
+  <line x1="40" y1="673" x2="920" y2="673" stroke="#ddd" stroke-width="1" />
+
+  <!-- Zone colour swatches row -->
+  <rect x="46"  y="680" width="14" height="10" rx="2" fill="#cce5f7" stroke="#85b8d4" stroke-width="0.8"/>
+  <text x="64"  y="689" font-family="Arial" font-size="8.5px" font-weight="bold" fill="#1565c0">Zone A</text>
+  <text x="104" y="689" font-family="Arial" font-size="8px" fill="#444">— Hartley Building</text>
+
+  <rect x="230" y="680" width="14" height="10" rx="2" fill="#fffcb8" stroke="#d4b800" stroke-width="0.8"/>
+  <text x="248" y="689" font-family="Arial" font-size="8.5px" font-weight="bold" fill="#e65100">Zone B</text>
+  <text x="288" y="689" font-family="Arial" font-size="8px" fill="#444">— Chancellor Building</text>
+
+  <rect x="430" y="680" width="14" height="10" rx="2" fill="#ffd6a5" stroke="#e88000" stroke-width="0.8"/>
+  <text x="448" y="689" font-family="Arial" font-size="8.5px" font-weight="bold" fill="#e65c00">Zone C</text>
+  <text x="488" y="689" font-family="Arial" font-size="8px" fill="#444">— Cavendish Building</text>
+
+  <rect x="626" y="680" width="14" height="10" rx="2" fill="#ffdcaa" stroke="#e67e00" stroke-width="0.8"/>
+  <text x="644" y="689" font-family="Arial" font-size="8.5px" font-weight="bold" fill="#bf360c">Zone G</text>
+  <text x="684" y="689" font-family="Arial" font-size="8px" fill="#444">— Zepler Building</text>
+
+  <rect x="790" y="680" width="14" height="10" rx="2" fill="#c5e8c6" stroke="#4caf50" stroke-width="0.8"/>
+  <text x="808" y="689" font-family="Arial" font-size="8.5px" font-weight="bold" fill="#2e7d32">Zone K</text>
+  <text x="848" y="689" font-family="Arial" font-size="8px" fill="#444">— Athletico Cplx</text>
+
+  <line x1="40" y1="695" x2="920" y2="695" stroke="#eee" stroke-width="1" />
+
+  <!-- Location list — 3 columns -->
+  <!-- Col 1 -->
+  <circle cx="52"  cy="710" r="6" fill="#1565c0"/><text x="63" y="714" class="leg-text">A — Main Library (Hartley Building)</text>
+  <circle cx="52"  cy="728" r="6" fill="#f57f17"/><text x="63" y="732" class="leg-text">B — Reception (Chancellor Building)</text>
+  <circle cx="52"  cy="746" r="6" fill="#e65100"/><text x="63" y="750" class="leg-text">B — Main Building (Chancellor Building)</text>
+  <circle cx="52"  cy="764" r="6" fill="#bf360c"/><text x="63" y="768" class="leg-text">B — Administration Office (Chancellor Bldg)</text>
+  <circle cx="52"  cy="782" r="6" fill="#e65c00"/><text x="63" y="786" class="leg-text">C — Cafeteria (Cavendish Building)</text>
+
+  <!-- Col 2 -->
+  <circle cx="332" cy="710" r="6" fill="#bf360c"/><text x="343" y="714" class="leg-text">G — Computer Science Department</text>
+  <circle cx="332" cy="728" r="6" fill="#bf360c"/><text x="343" y="732" class="leg-text">G — Auditorium</text>
+  <circle cx="332" cy="746" r="6" fill="#bf360c"/><text x="343" y="750" class="leg-text">G — Main Lecture Hall</text>
+  <circle cx="332" cy="764" r="6" fill="#bf360c"/><text x="343" y="768" class="leg-text">G — Classroom / Teaching Room</text>
+
+  <!-- Col 3 -->
+  <circle cx="612" cy="710" r="6" fill="#bf360c"/><text x="623" y="714" class="leg-text">G — Science Laboratory</text>
+  <circle cx="612" cy="728" r="6" fill="#bf360c"/><text x="623" y="732" class="leg-text">G — Seminar / Meeting Room</text>
+  <circle cx="612" cy="746" r="6" fill="#2e7d32"/><text x="623" y="750" class="leg-text">K — Gymnasium (Athletico Complex)</text>
+  <circle cx="612" cy="764" r="6" fill="#1b5e20"/><text x="623" y="768" class="leg-text">K — Sports Centre (Athletico Complex)</text>
+
+  <!-- Tip -->
+  <text x="480" y="808" text-anchor="middle" font-family="Arial" font-size="8px" fill="#999">
+    Ask: "How do I get from Zone A to Zone K?" for step-by-step directions.
+  </text>
+
+</svg>

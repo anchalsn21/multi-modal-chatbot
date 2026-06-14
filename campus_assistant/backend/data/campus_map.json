@@ -1,0 +1,36 @@
+{
+  "campus_name": "Greenfield University Campus",
+  "map_version": "3.0",
+  "coordinate_system": "pixel",
+  "image_ref": "data/images/campus_map_base.png",
+  "locations": [
+    { "id": "loc_001", "name": "Main Library",                 "map_zone": "A", "coordinates": { "x": 120, "y": 85  }, "image_dataset_path": "data/images/library" },
+    { "id": "loc_002", "name": "Reception",                    "map_zone": "B", "coordinates": { "x": 155, "y": 110 }, "image_dataset_path": "data/images/reception" },
+    { "id": "loc_003", "name": "Administration Office",        "map_zone": "E", "coordinates": { "x": 157, "y": 110 }, "image_dataset_path": "data/images/administration_office" },
+    { "id": "loc_004", "name": "Cafeteria",                    "map_zone": "C", "coordinates": { "x": 158, "y": 102 }, "image_dataset_path": "data/images/cafeteria" },
+    { "id": "loc_005", "name": "Computer Science Department",  "map_zone": "G", "coordinates": { "x": 135, "y": 70  }, "image_dataset_path": "data/images/cs_department" },
+    { "id": "loc_006", "name": "Auditorium",                   "map_zone": "G", "coordinates": { "x": 138, "y": 68  }, "image_dataset_path": "data/images/auditorium" },
+    { "id": "loc_007", "name": "Classroom / Teaching Room",    "map_zone": "G", "coordinates": { "x": 136, "y": 71  }, "image_dataset_path": "data/images/classroom" },
+    { "id": "loc_008", "name": "Gymnasium",                    "map_zone": "K", "coordinates": { "x": 198, "y": 118 }, "image_dataset_path": "data/images/gym" },
+    { "id": "loc_009", "name": "Science Laboratory",           "map_zone": "G", "coordinates": { "x": 134, "y": 73  }, "image_dataset_path": "data/images/laboratory" },
+    { "id": "loc_010", "name": "Main Building",                "map_zone": "B", "coordinates": { "x": 152, "y": 112 }, "image_dataset_path": "data/images/main_building" },
+    { "id": "loc_011", "name": "Main Lecture Hall",            "map_zone": "G", "coordinates": { "x": 137, "y": 69  }, "image_dataset_path": "data/images/main_lecture_hall" },
+    { "id": "loc_012", "name": "Seminar / Meeting Room",       "map_zone": "G", "coordinates": { "x": 135, "y": 72  }, "image_dataset_path": "data/images/meeting_room" },
+    { "id": "loc_013", "name": "Sports Centre",                "map_zone": "K", "coordinates": { "x": 200, "y": 115 }, "image_dataset_path": "data/images/sports_centre" }
+  ],
+  "connections": [
+    { "from": "loc_001", "to": "loc_002", "description": "From the Main Library (Zone A), head south on Central Spine Road to the Main Gate area — Reception is in Chancellor Building at Zone B." },
+    { "from": "loc_002", "to": "loc_003", "description": "From Reception, walk along the internal corridor east — Administration Office is in the same Chancellor Building at Zone E." },
+    { "from": "loc_002", "to": "loc_005", "description": "From Reception (Zone B), head north on Hartley Road — the Zepler Building (CS Department, Zone G) is on the left past the library." },
+    { "from": "loc_003", "to": "loc_002", "description": "From Administration Office (Zone E), head west along the internal corridor — Reception is at Zone B in the same Chancellor Building." },
+    { "from": "loc_004", "to": "loc_002", "description": "From the Cafeteria (Zone C, Cavendish Building), walk east along Central Spine Road — Reception / Main Building is at Zone B." },
+    { "from": "loc_005", "to": "loc_006", "description": "From the CS Department (Level 2–3), take the stairs or lift down to the ground floor — the Auditorium is in the same Zepler Building at ground level." },
+    { "from": "loc_005", "to": "loc_007", "description": "Classrooms are on multiple floors of the Zepler Building — check your timetable for your specific room number." },
+    { "from": "loc_005", "to": "loc_009", "description": "From CS Department (Level 2–3), take the stairs down to Level 1 — the Science Laboratory is on Level 1 of the Zepler Building." },
+    { "from": "loc_005", "to": "loc_011", "description": "From CS Department, take the lift or stairs to the ground floor — the Main Lecture Hall is at ground level in the same Zepler Building." },
+    { "from": "loc_005", "to": "loc_012", "description": "Seminar and meeting rooms are spread throughout the Zepler Building — check your booking confirmation for the room number and floor." },
+    { "from": "loc_001", "to": "loc_008", "description": "From the Main Library (Zone A), head south to Central Plaza then turn left onto East Road — follow East Road to East Gate and the Gymnasium (Zone K) is in the Athletico Complex." },
+    { "from": "loc_008", "to": "loc_013", "description": "The Gymnasium and Sports Centre are both in the Athletico Complex at Zone K — follow signs inside the complex." },
+    { "from": "loc_002", "to": "loc_004", "description": "From Reception (Zone B), walk west along Central Spine Road — the Cafeteria is in the Cavendish Building at Zone C." }
+  ]
+}
