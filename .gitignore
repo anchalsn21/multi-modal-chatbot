@@ -1,0 +1,61 @@
+# ── Python ────────────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+=0.4.0
+
+# ── Virtual environments ──────────────────────────────────────────────────────
+venv/
+.venv/
+env/
+.env/
+
+# ── Environment variables (secrets — never commit) ────────────────────────────
+.env
+.env.*
+!.env.example
+
+# ── Training images (large — only needed to rebuild FAISS index, not at runtime)
+data/images/
+data/audio/
+
+# ── Model weights tracked via Git LFS (not ignored — committed to HF Spaces) ──
+# *.bin, *.pt, *.index etc. are tracked by LFS via .gitattributes
+
+# ── Logs & server output files ────────────────────────────────────────────────
+*.log
+backend_out*.log
+build_index_log.txt
+/tmp/
+
+# ── Scratch / one-off test scripts (not part of the test suite) ───────────────
+test_clip.py
+test_scenarios.py
+test_scenarios_results.json
+
+# ── Jupyter notebook checkpoints ─────────────────────────────────────────────
+.ipynb_checkpoints/
+
+# ── Coverage & test cache ─────────────────────────────────────────────────────
+.pytest_cache/
+.coverage
+htmlcov/
+*.xml
+
+# ── OS ────────────────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ── IDE ───────────────────────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo

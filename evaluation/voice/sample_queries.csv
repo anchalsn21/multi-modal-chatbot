@@ -1,0 +1,6 @@
+audio_file,expected_transcript,expected_intent
+q01.webm,where is the library,find_location
+q02.webm,what time does the cafeteria open,ask_hours
+q03.webm,are there any events this week,find_event
+q04.webm,how do i find the admissions office,find_department
+q05.webm,where can i study on campus,find_study_area
