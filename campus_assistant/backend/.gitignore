@@ -26,6 +26,9 @@ env/
 data/images/
 data/audio/
 
+# ── Dataset backup created during retraining (original kept for reference only) ──
+data/faq_dataset_original.csv
+
 # ── Model weights tracked via Git LFS (not ignored — committed to HF Spaces) ──
 # *.bin, *.pt, *.index etc. are tracked by LFS via .gitattributes
 
@@ -35,10 +38,20 @@ backend_out*.log
 build_index_log.txt
 /tmp/
 
+# ── Report assets (pre-generated figures/evidence for report, not needed at runtime) ──
+report_evidence/
+report_figures/
+models/intent_classifier/training_curves/
+
 # ── Scratch / one-off test scripts (not part of the test suite) ───────────────
 test_clip.py
 test_scenarios.py
 test_scenarios_results.json
+
+# ── One-off output logs ───────────────────────────────────────────────────────
+evidence_output.log
+generate_evidence_output.log
+training_output.log
 
 # ── Jupyter notebook checkpoints ─────────────────────────────────────────────
 .ipynb_checkpoints/
